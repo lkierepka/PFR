@@ -3,5 +3,17 @@
         <mat-label>Adres</mat-label>
         <input matInput>
     </mat-form-field>
-    <br>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Powierzchnia domu</mat-label>
+        <input type="number" min="30" max="400" matInput>
+    </mat-form-field>
+
+    <mat-label class="bottom-margin-5">Ocieplenie domu</mat-label>
+    <mat-button-toggle-group name="thermalInsulation" appearance="legacy">
+        <mat-button-toggle value="poor">Słabe</mat-button-toggle>
+        <mat-button-toggle value="medium">Średnie</mat-button-toggle>
+        <mat-button-toggle value="good">Dobre</mat-button-toggle>
+    </mat-button-toggle-group>
+
 </div>

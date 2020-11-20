@@ -1,0 +1,13 @@
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+mat-button-toggle-group {
+    width: min-content;
+}
+
+.bottom-margin-5 {
+    margin-bottom: 5px;
+}
