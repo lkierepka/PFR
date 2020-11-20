@@ -3,13 +3,13 @@ import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
 
 interface ICost {
-  nazwa: string;
-  instalacja: {
-    zewnetrzna: {
+  name: string;
+  installation: {
+    external: {
       min: number;
       max: number;
     };
-    wewnetrzna: {
+    internal: {
       max100m: {
         avg: number;
       };
@@ -20,7 +20,7 @@ interface ICost {
         avg: number;
       };
     };
-    kociol: {
+    cauldron: {
       max100m: {
         avg: number;
       };
@@ -32,7 +32,7 @@ interface ICost {
       };
     };
   };
-  sredniRoczny: {
+  yearlyAvg: {
     max100m: {
       min: number;
       max: number;
@@ -55,7 +55,7 @@ export class CostProviderService {
   constructor(private http: HttpClient) {}
 
   public costs$() {
-    const file$ = this.http.get('/assets/Koszty.csv', { responseType: 'text' });
+    const file$ = this.http.get('/assets/costs.csv', { responseType: 'text' });
     return file$.pipe(
       map((response) => {
         const rows = response.split('\n');
@@ -67,36 +67,38 @@ export class CostProviderService {
 
   private mapRowToCost(value: string): ICost {
     const row = value.split(',');
+    const name = row.splice(0, 1)[0];
+    const rowNumbers = row.map(Number.parseInt);
     return {
-      nazwa: row[0],
-      instalacja: {
-        zewnetrzna: {
-          min: Number.parseInt(row[1]),
-          max: Number.parseInt(row[2]),
+      name: name,
+      installation: {
+        external: {
+          min: rowNumbers[0],
+          max: rowNumbers[1],
         },
-        wewnetrzna: {
-          max100m: { avg: Number.parseInt(row[3]) },
-          max200m: { avg: Number.parseInt(row[4]) },
-          min200m: { avg: Number.parseInt(row[5]) },
+        internal: {
+          max100m: { avg: rowNumbers[2] },
+          max200m: { avg: rowNumbers[3] },
+          min200m: { avg: rowNumbers[4] },
         },
-        kociol: {
-          max100m: { avg: Number.parseInt(row[6]) },
-          max200m: { avg: Number.parseInt(row[7]) },
-          min200m: { avg: Number.parseInt(row[8]) },
+        cauldron: {
+          max100m: { avg: rowNumbers[5] },
+          max200m: { avg: rowNumbers[6] },
+          min200m: { avg: rowNumbers[7] },
         },
       },
-      sredniRoczny: {
+      yearlyAvg: {
         max100m: {
-          min: Number.parseInt(row[9]),
-          max: Number.parseInt(row[10]),
+          min: rowNumbers[8],
+          max: rowNumbers[9],
         },
         max200m: {
-          min: Number.parseInt(row[11]),
-          max: Number.parseInt(row[12]),
+          min: rowNumbers[10],
+          max: rowNumbers[11],
         },
         min200m: {
-          min: Number.parseInt(row[13]),
-          max: Number.parseInt(row[14]),
+          min: rowNumbers[12],
+          max: rowNumbers[13],
         },
       },
     };
