@@ -1,0 +1,407 @@
+[
+	{
+		"name" : "Azaliowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Krzysztofa Kamila Baczyńskiego " ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Wojciecha Bogusławskiego " ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Józefa Chełmońskiego " ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Fryderyka Chopina " ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Cicha" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jarosława Dąbrowskiego " ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Długa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Dolna" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Getta Żydowskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Aleksandra Gierymskiego " ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Inżynierska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Irysowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jarosława Iwaszkiewicza" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Stefana Jaracza" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jasna" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Juliusza" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jana Kazimierza" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Komisji Edukacji Narodowej" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jana Kilińskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "prof. dr. Tadeusza Kobusiewicza" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Konwaliowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Juliusza Kossaka" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Kościelna" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Aleje Tadeusza Kościuszki" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Kręta" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Królewska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Kwiatowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Lawendowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Łaska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Łódzka" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jacka Malczewskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Miła" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Heleny Modrzejewskiej" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Mostowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Obrońców Westerplatte" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Ogrodowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Opiesińska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Osmolińska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Ignacego Jana Paderewskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Parkowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Plac Krakowski" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Plac Wolności" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Pomorska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Przejazd" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Różana" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Sieradzka" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Marii Skłodowskiej-Curie" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jana Skrzetuskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Juliusza Słowackiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Słowiańska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Jana III Sobieskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Ludwika Solskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Spacerowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Srebrna" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Leopolda Staffa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Szadkowska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Szkolna" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Strzelecka" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Szpitalna" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Karola Szymanowskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Juliusza Tuwima" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Henryka Wieniawskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Wierzbowa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Wileńska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Stanisława Ignacego Witkiewicza" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Wodna" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Wolska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Zachodnia" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Zakopiańska" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Ludwika Zamenhofa" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Zielona" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Złota" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Stefana Złotnickiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Stefana Żeromskiego" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "Żytnia" ,
+		"planed": false,
+		"planedYear": 2020
+	},
+	{
+		"name" : "1 Maja" ,
+		"planed": true,
+		"planedYear": 2021
+	},
+	{
+		"name" : "Krucza" ,
+		"planed": true,
+		"planedYear": 2021
+	},
+	{
+		"name" : "Plac Krakowski 12" ,
+		"planed": true,
+		"planedYear": 2021
+	},
+	{
+		"name" : "Wodna" ,
+		"planed": true,
+		"planedYear": 2022
+	},
+	{
+		"name" : "Wojska Polskiego" ,
+		"planed": true,
+		"planedYear": 2022
+	}
+]
