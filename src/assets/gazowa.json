@@ -1,602 +1,602 @@
 [
 	{
-		nazwa : "Dojazd" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Dojazd" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Agrestowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Agrestowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Bałtycka" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Bałtycka" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Boczna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Boczna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Braterska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Braterska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Fryderyka Chopina" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Fryderyka Chopina" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Hetmana Stefana Czarneckiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Hetmana Stefana Czarneckiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Czeska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Czeska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Dobra" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Dobra" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Janusza Teodora Dybowskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Janusza Teodora Dybowskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Getta Żydowskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Getta Żydowskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Główna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Główna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Graniczna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Graniczna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Hetmańska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Hetmańska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Władysława Jagiełły" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Władysława Jagiełły" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Jedności" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Jedności" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Kanałowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Kanałowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Jana Kazimierza" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Jana Kazimierza" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Jana Kilińskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Jana Kilińskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Klonowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Klonowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "prof. dr. Tadeusza Kobusiewicza" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "prof. dr. Tadeusza Kobusiewicza" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "św. Maksymiliana Marii Kolbego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "św. Maksymiliana Marii Kolbego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Marii Konopnickiej" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Marii Konopnickiej" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Kościelna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Kościelna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "pasaż dr. Jakuba Lemberga" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "pasaż dr. Jakuba Lemberga" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Łaska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Łaska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Łąkowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Łąkowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Łódzka" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Łódzka" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Młynarska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Młynarska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Mostowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Mostowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Nadziei" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Nadziei" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Gabriela Narutowicza" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Gabriela Narutowicza" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Narwiańska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Narwiańska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Notecka" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Notecka" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Obrońców Westerplatte" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Obrońców Westerplatte" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Odrzańska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Odrzańska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Opiesińska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Opiesińska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Piaskowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Piaskowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Longinusa Podbipięty" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Longinusa Podbipięty" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Podmiejska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Podmiejska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Pokoju" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Pokoju" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Polna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Polna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Południowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Południowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Haliny Poświatowskiej" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Haliny Poświatowskiej" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Pasaż Powstańców Śląskich" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Pasaż Powstańców Śląskich" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Prosta" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Prosta" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Radosna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Radosna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Mikołaja Reja" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Mikołaja Reja" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Władysława Reymonta" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Władysława Reymonta" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Rycerska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Rycerska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Serdeczna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Serdeczna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Henryka Sienkiewicza" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Henryka Sienkiewicza" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Sieradzka" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Sieradzka" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "gen. Władysława Sikorskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "gen. Władysława Sikorskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Jana Skrzetuskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Jana Skrzetuskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Jana III Sobieskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Jana III Sobieskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Sokoła" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Sokoła" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Andrzeja Struga" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Andrzeja Struga" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Strzelecka" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Strzelecka" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Szadkowska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Szadkowska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Jerzego Szaniawskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Jerzego Szaniawskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Śnieżna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Śnieżna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "ks. Prof. Józefa Tischnera" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "ks. Prof. Józefa Tischnera" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Topolowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Topolowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Torfowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Torfowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Tymieniecka" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Tymieniecka" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Wczasowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Wczasowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Wiklinowa" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Wiklinowa" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Wilcza" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Wilcza" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Wodna" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Wodna" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Wschodnia" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Wschodnia" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "kardynała Stefana Wyszyńskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "kardynała Stefana Wyszyńskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Zachodnia" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Zachodnia" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Zagłoby" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Zagłoby" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Zakopiańska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Zakopiańska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Zduńska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Zduńska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Zgody" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Zgody" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Zielonogórska" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Zielonogórska" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Złota" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Złota" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Stefana Złotnickiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Stefana Złotnickiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Stanisława Żółkiewskiego" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Stanisława Żółkiewskiego" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Żurawia" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Żurawia" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Żytnia" ,
-		planowana: false,
-		planowanyRokPrzylaczenia: 2020
+		name : "Żytnia" ,
+		planed: false,
+		planedYear: 2020
 	},
 	{
-		nazwa : "Azaliowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Azaliowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Borowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Borowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Jarosława Dąbrowskiego" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Jarosława Dąbrowskiego" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Grabowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Grabowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Jodłowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Jodłowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Juliusza" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Juliusza" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Karsznicka" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Karsznicka" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Klasztorna" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Klasztorna" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Kościelna" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Kościelna" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Kręta" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Kręta" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Łaska" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Łaska" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "1-go Maja" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "1-go Maja" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Adama Mickiewicza" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Adama Mickiewicza" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Mostowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Mostowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Obywatelska" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Obywatelska" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Stefana Okrzei" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Stefana Okrzei" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Orzycka" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Orzycka" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Osmolińska" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Osmolińska" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Paprocka" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Paprocka" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Piłkarska" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Piłkarska" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Polna" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Polna" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Sieradzka" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Sieradzka" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Słowiańska" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Słowiańska" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Spacerowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Spacerowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Spółdzielcza" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Spółdzielcza" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Srebrna" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Srebrna" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Stanisława Staszica" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Stanisława Staszica" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Świerkowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Świerkowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Targowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Targowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Tkacka" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Tkacka" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Tymienicka" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Tymienicka" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Warcka" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Warcka" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Wiklinowa" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Wiklinowa" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Wspólna" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Wspólna" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Zielona" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Zielona" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Zielonogórska" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Zielonogórska" ,
+		planed: true,
+		planedYear: 2023
 	},
 	{
-		nazwa : "Stefana Żeromskiego" ,
-		planowana: true,
-		planowanyRokPrzylaczenia: 2023
+		name : "Stefana Żeromskiego" ,
+		planed: true,
+		planedYear: 2023
 	}
 ]
