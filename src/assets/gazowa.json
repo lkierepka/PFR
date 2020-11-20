@@ -1,602 +1,602 @@
 [
 	{
-		name : "Dojazd" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Dojazd" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Agrestowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Agrestowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Bałtycka" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Bałtycka" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Boczna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Boczna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Braterska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Braterska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Fryderyka Chopina" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Fryderyka Chopina" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Hetmana Stefana Czarneckiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Hetmana Stefana Czarneckiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Czeska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Czeska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Dobra" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Dobra" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Janusza Teodora Dybowskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Janusza Teodora Dybowskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Getta Żydowskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Getta Żydowskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Główna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Główna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Graniczna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Graniczna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Hetmańska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Hetmańska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Władysława Jagiełły" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Władysława Jagiełły" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Jedności" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Jedności" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Kanałowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Kanałowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Jana Kazimierza" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Jana Kazimierza" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Jana Kilińskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Jana Kilińskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Klonowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Klonowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "prof. dr. Tadeusza Kobusiewicza" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "prof. dr. Tadeusza Kobusiewicza" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "św. Maksymiliana Marii Kolbego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "św. Maksymiliana Marii Kolbego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Marii Konopnickiej" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Marii Konopnickiej" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Kościelna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Kościelna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "pasaż dr. Jakuba Lemberga" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "pasaż dr. Jakuba Lemberga" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Łaska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Łaska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Łąkowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Łąkowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Łódzka" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Łódzka" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Młynarska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Młynarska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Mostowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Mostowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Nadziei" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Nadziei" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Gabriela Narutowicza" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Gabriela Narutowicza" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Narwiańska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Narwiańska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Notecka" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Notecka" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Obrońców Westerplatte" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Obrońców Westerplatte" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Odrzańska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Odrzańska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Opiesińska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Opiesińska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Piaskowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Piaskowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Longinusa Podbipięty" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Longinusa Podbipięty" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Podmiejska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Podmiejska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Pokoju" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Pokoju" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Polna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Polna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Południowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Południowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Haliny Poświatowskiej" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Haliny Poświatowskiej" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Pasaż Powstańców Śląskich" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Pasaż Powstańców Śląskich" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Prosta" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Prosta" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Radosna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Radosna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Mikołaja Reja" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Mikołaja Reja" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Władysława Reymonta" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Władysława Reymonta" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Rycerska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Rycerska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Serdeczna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Serdeczna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Henryka Sienkiewicza" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Henryka Sienkiewicza" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Sieradzka" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Sieradzka" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "gen. Władysława Sikorskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "gen. Władysława Sikorskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Jana Skrzetuskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Jana Skrzetuskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Jana III Sobieskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Jana III Sobieskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Sokoła" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Sokoła" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Andrzeja Struga" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Andrzeja Struga" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Strzelecka" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Strzelecka" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Szadkowska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Szadkowska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Jerzego Szaniawskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Jerzego Szaniawskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Śnieżna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Śnieżna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "ks. Prof. Józefa Tischnera" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "ks. Prof. Józefa Tischnera" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Topolowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Topolowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Torfowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Torfowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Tymieniecka" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Tymieniecka" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Wczasowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Wczasowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Wiklinowa" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Wiklinowa" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Wilcza" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Wilcza" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Wodna" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Wodna" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Wschodnia" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Wschodnia" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "kardynała Stefana Wyszyńskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "kardynała Stefana Wyszyńskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Zachodnia" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Zachodnia" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Zagłoby" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Zagłoby" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Zakopiańska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Zakopiańska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Zduńska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Zduńska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Zgody" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Zgody" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Zielonogórska" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Zielonogórska" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Złota" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Złota" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Stefana Złotnickiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Stefana Złotnickiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Stanisława Żółkiewskiego" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Stanisława Żółkiewskiego" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Żurawia" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Żurawia" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Żytnia" ,
-		planed: false,
-		planedYear: 2020
+		"name" : "Żytnia" ,
+		"planed": false,
+		"planedYear": 2020
 	},
 	{
-		name : "Azaliowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Azaliowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Borowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Borowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Jarosława Dąbrowskiego" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Jarosława Dąbrowskiego" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Grabowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Grabowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Jodłowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Jodłowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Juliusza" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Juliusza" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Karsznicka" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Karsznicka" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Klasztorna" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Klasztorna" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Kościelna" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Kościelna" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Kręta" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Kręta" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Łaska" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Łaska" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "1-go Maja" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "1-go Maja" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Adama Mickiewicza" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Adama Mickiewicza" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Mostowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Mostowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Obywatelska" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Obywatelska" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Stefana Okrzei" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Stefana Okrzei" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Orzycka" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Orzycka" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Osmolińska" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Osmolińska" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Paprocka" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Paprocka" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Piłkarska" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Piłkarska" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Polna" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Polna" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Sieradzka" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Sieradzka" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Słowiańska" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Słowiańska" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Spacerowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Spacerowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Spółdzielcza" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Spółdzielcza" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Srebrna" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Srebrna" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Stanisława Staszica" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Stanisława Staszica" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Świerkowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Świerkowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Targowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Targowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Tkacka" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Tkacka" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Tymienicka" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Tymienicka" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Warcka" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Warcka" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Wiklinowa" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Wiklinowa" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Wspólna" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Wspólna" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Zielona" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Zielona" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Zielonogórska" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Zielonogórska" ,
+		"planed": true,
+		"planedYear": 2023
 	},
 	{
-		name : "Stefana Żeromskiego" ,
-		planed: true,
-		planedYear: 2023
+		"name" : "Stefana Żeromskiego" ,
+		"planed": true,
+		"planedYear": 2023
 	}
 ]
