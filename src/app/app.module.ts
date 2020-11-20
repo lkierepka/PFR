@@ -7,20 +7,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalculatorFormComponent } from './calculator-form/calculator-form.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CalculatorFormComponent
-  ],
+  declarations: [AppComponent, CalculatorFormComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatInputModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
