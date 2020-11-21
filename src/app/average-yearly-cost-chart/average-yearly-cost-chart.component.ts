@@ -14,7 +14,7 @@ import {
   templateUrl: './average-yearly-cost-chart.component.html',
   styleUrls: ['./average-yearly-cost-chart.component.scss'],
 })
-export class AverageYearlyCostChartComponent implements OnInit {
+export class AverageYearlyCostChartComponent {
   @Input()
   houseSize: string = 'small';
   @Input()
@@ -86,6 +86,4 @@ export class AverageYearlyCostChartComponent implements OnInit {
   getAvgFromMinMax(minMax: IMinMax) {
     return (minMax.min + minMax.max) / 2;
   }
-
-  ngOnInit(): void {}
 }
