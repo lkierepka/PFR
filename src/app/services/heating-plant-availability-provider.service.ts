@@ -24,6 +24,7 @@ export class HeatingPlantStreetProviderService {
     this.heatingPlantStreet$().subscribe(
       streets => {
         this.connectedStreets.next(this.sortByName(streets));
+        console.log('initialized correctly');
       },
       error => {
         console.log(error);
@@ -32,7 +33,7 @@ export class HeatingPlantStreetProviderService {
   }
 
   public heatingPlantStreet$(): Observable<ConnectedStreet[]> {
-    const file$ = this.http.get<ConnectedStreet[]>('../../assets/gas.json');
+    const file$ = this.http.get<ConnectedStreet[]>('../../assets/heat.json');
     return file$.pipe(tap(console.log));
   }
 

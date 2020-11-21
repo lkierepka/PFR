@@ -24,6 +24,7 @@ export class GasPipelineStreetProviderService {
     this.gasPipelineStreet$().subscribe(
       streets => {
         this.connectedStreets.next(this.sortByName(streets));
+        console.log('initialized correctly');
       },
       error => {
         console.log(error);
