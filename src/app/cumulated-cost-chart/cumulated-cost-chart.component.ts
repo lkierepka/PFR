@@ -1,38 +1,42 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
-import { map, shareReplay, tap } from 'rxjs/operators';
+import { shareReplay, map } from 'rxjs/operators';
 import {
-  CostProviderService,
   ICost,
+  CostProviderService,
   IHouseSizeAvg,
   IHouseSizeMinMax,
   IMinMax,
 } from '../cost-provider.service';
-
 @Component({
-  selector: 'app-average-yearly-cost-chart',
-  templateUrl: './average-yearly-cost-chart.component.html',
-  styleUrls: ['./average-yearly-cost-chart.component.scss'],
+  selector: 'app-cumulated-cost-chart',
+  templateUrl: './cumulated-cost-chart.component.html',
+  styleUrls: ['./cumulated-cost-chart.component.scss'],
 })
-export class AverageYearlyCostChartComponent {
+export class CumulatedCostChartComponent {
   @Input()
   houseSize: string = 'average';
   @Input()
-  years: number = 10;
+  years = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   costs$: Observable<ICost[]>;
-  costsSeries$: Observable<{ name: string; value: number }[]>;
+  costsSeries$: Observable<
+    { name: string; series: { name: string; value: number }[] }[]
+  >;
 
-  view: any[] = [500, 400];
+  view: any[] = [700, 400];
 
   // options
+  animations: boolean = true;
+  xAxis: boolean = true;
+  yAxis: boolean = true;
+  xAxisLabel: string = 'Rok';
+  yAxisLabel: string = 'Koszt w PLN';
   showXAxis = true;
   showYAxis = true;
   gradient = false;
+  showLegend = true;
   showXAxisLabel = true;
-  xAxisLabel = 'Źródła ogrzewania';
   showYAxisLabel = true;
-  yAxisLabel = 'Koszt w PLN';
-  barPadding = 10
 
   colorScheme = {
     domain: ['#5AA454', '#7AA3E5', '#F2DFA7', '#A27EA8', '#A8385D'],
@@ -43,9 +47,13 @@ export class AverageYearlyCostChartComponent {
       map((costs) =>
         costs.map((c) => ({
           name: c.name,
-          value:
-            this.getAvgFromMinMax(this.getValueForSizeMinMax(c.yearlyAvg)) +
-            this.getInstalationCost(c) / this.years,
+          series: this.years.map((year) => ({
+            name: year.toString(),
+            value:
+              this.getAvgFromMinMax(this.getValueForSizeMinMax(c.yearlyAvg)) *
+                year +
+              this.getInstalationCost(c),
+          })),
         }))
       )
     );

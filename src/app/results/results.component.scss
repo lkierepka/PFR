@@ -3,13 +3,15 @@
   flex-direction: column;
 }
 
-.coal-result {
+.coal-result,
+.yearly-avg-cost-chart,
+.cumulated-cost-chart {
   display: flex;
   padding: 40px 0;
 }
 
 .info-card {
-  height: 60px;
+  height: fit-content;
   margin: auto;
   display: flex;
   align-items: center;

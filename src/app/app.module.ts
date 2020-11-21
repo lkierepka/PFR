@@ -26,6 +26,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { GrantSummaryComponent } from './grant-summary/grant-summary.component';
 import { ResultsComponent } from './results/results.component';
 import { MatCardModule } from '@angular/material/card';
+import { CumulatedCostChartComponent } from './cumulated-cost-chart/cumulated-cost-chart.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { MatCardModule } from '@angular/material/card';
     CoalPriceChartComponent,
     GrantSummaryComponent,
     ResultsComponent,
+    CumulatedCostChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -64,4 +66,4 @@ import { MatCardModule } from '@angular/material/card';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
