@@ -1,4 +1,4 @@
-export interface connectedStreet {
+export interface ConnectedStreet {
   name: string;
   planed: boolean;
   planedYear: number;
