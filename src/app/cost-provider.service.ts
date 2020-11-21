@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
+import { HouseSizeEnum } from './models/house-size.enum';
 
 export interface IMinMax {
   min: number;
@@ -49,6 +50,48 @@ export class CostProviderService {
         return rows.map(this.mapRowToCost);
       })
     );
+  }
+
+  getYearlyAverage(c: ICost, houseSize: HouseSizeEnum) {
+    return this.getAvgFromMinMax(
+      this.getValueForSizeMinMax(c.yearlyAvg, houseSize)
+    );
+  }
+
+  getInstalationCost(c: ICost, houseSize: HouseSizeEnum): number {
+    return (
+      this.getValueForSizeAvg(c.installation.cauldron, houseSize).avg +
+      this.getAvgFromMinMax(c.installation.external) +
+      this.getValueForSizeAvg(c.installation.internal, houseSize).avg
+    );
+  }
+
+  getValueForSizeAvg(size: IHouseSizeAvg, houseSize: HouseSizeEnum) {
+    switch (houseSize) {
+      case HouseSizeEnum.small:
+        return size.max100m;
+      case HouseSizeEnum.medium:
+      default:
+        return size.max200m;
+      case HouseSizeEnum.large:
+        return size.min200m;
+    }
+  }
+
+  getValueForSizeMinMax(size: IHouseSizeMinMax, houseSize: HouseSizeEnum) {
+    switch (houseSize) {
+      case HouseSizeEnum.small:
+        return size.max100m;
+      case HouseSizeEnum.medium:
+      default:
+        return size.max200m;
+      case HouseSizeEnum.large:
+        return size.min200m;
+    }
+  }
+
+  getAvgFromMinMax(minMax: IMinMax) {
+    return (minMax.min + minMax.max) / 2;
   }
 
   private mapRowToCost(value: string): ICost {

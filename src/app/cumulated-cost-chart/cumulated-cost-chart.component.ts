@@ -1,21 +1,19 @@
 import { Component, Input } from '@angular/core';
-import { Observable } from 'rxjs';
-import { shareReplay, map } from 'rxjs/operators';
-import {
-  ICost,
-  CostProviderService,
-  IHouseSizeAvg,
-  IHouseSizeMinMax,
-  IMinMax,
-} from '../cost-provider.service';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { shareReplay, map, mergeMap } from 'rxjs/operators';
+import { ICost, CostProviderService } from '../cost-provider.service';
+import { HouseSizeEnum } from '../models/house-size.enum';
 @Component({
   selector: 'app-cumulated-cost-chart',
   templateUrl: './cumulated-cost-chart.component.html',
   styleUrls: ['./cumulated-cost-chart.component.scss'],
 })
 export class CumulatedCostChartComponent {
+  houseSize$ = new BehaviorSubject<HouseSizeEnum>(HouseSizeEnum.medium);
   @Input()
-  houseSize: string = 'average';
+  set houseSize(size: HouseSizeEnum) {
+    this.houseSize$.next(size);
+  }
   @Input()
   years = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   costs$: Observable<ICost[]>;
@@ -44,54 +42,21 @@ export class CumulatedCostChartComponent {
   constructor(private costProvider: CostProviderService) {
     this.costs$ = this.costProvider.costs$().pipe(shareReplay());
     this.costsSeries$ = this.costs$.pipe(
-      map((costs) =>
-        costs.map((c) => ({
-          name: c.name,
-          series: this.years.map((year) => ({
-            name: year.toString(),
-            value:
-              this.getAvgFromMinMax(this.getValueForSizeMinMax(c.yearlyAvg)) *
-                year +
-              this.getInstalationCost(c),
-          })),
-        }))
+      mergeMap((costs) =>
+        this.houseSize$.pipe(
+          map((houseSize) =>
+            costs.map((c) => ({
+              name: c.name,
+              series: this.years.map((year) => ({
+                name: year.toString(),
+                value:
+                  this.costProvider.getYearlyAverage(c, houseSize) * year +
+                  this.costProvider.getInstalationCost(c, houseSize),
+              })),
+            }))
+          )
+        )
       )
     );
-  }
-
-  getInstalationCost(c: ICost): number {
-    return (
-      this.getValueForSizeAvg(c.installation.cauldron).avg +
-      this.getAvgFromMinMax(c.installation.external) +
-      this.getValueForSizeAvg(c.installation.internal).avg
-    );
-  }
-
-  getValueForSizeAvg(size: IHouseSizeAvg) {
-    switch (this.houseSize) {
-      case 'small':
-        return size.max100m;
-      case 'average':
-      default:
-        return size.max200m;
-      case 'large':
-        return size.min200m;
-    }
-  }
-
-  getValueForSizeMinMax(size: IHouseSizeMinMax) {
-    switch (this.houseSize) {
-      case 'small':
-        return size.max100m;
-      case 'average':
-      default:
-        return size.max200m;
-      case 'large':
-        return size.min200m;
-    }
-  }
-
-  getAvgFromMinMax(minMax: IMinMax) {
-    return (minMax.min + minMax.max) / 2;
   }
 }

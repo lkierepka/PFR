@@ -33,11 +33,13 @@
   <mat-horizontal-stepper #stepper [linear]="false" class="content-container">
     <mat-step>
       <ng-template matStepLabel>Wypełnij formularz</ng-template>
-      <app-calculator-form></app-calculator-form>
+      <app-calculator-form
+        (formSubmitted)="onFormSubmitted($event)"
+      ></app-calculator-form>
     </mat-step>
     <mat-step>
       <ng-template matStepLabel>Zobacz wyniki</ng-template>
-      <app-results></app-results>
+      <app-results [formValue]="formValue"></app-results>
     </mat-step>
     <mat-step>
       <ng-template matStepLabel>Zdobądź dotacje</ng-template>

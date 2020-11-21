@@ -1,58 +1,84 @@
-<div class="calculator-form">
-  <mat-form-field appearance="outline">
-    <mat-label>Adres</mat-label>
-    <input type="text" placeholder="Ulica" aria-label="Number" matInput [formControl]="streetInput"
-      [matAutocomplete]="auto">
-    <mat-autocomplete #auto="matAutocomplete">
-      <mat-option *ngFor="let street of streets | async" [value]="street">
-        {{street}}
-      </mat-option>
-    </mat-autocomplete>
-  </mat-form-field>
-  <div class="info-container">
-    <div class="info" *ngIf="isGasAvailable | async">
-      <mat-icon class="check-icon">check_circle</mat-icon> Masz możliwość podłączenia gazu
+<form [formGroup]="calculatorForm" (ngSubmit)="submitForm()">
+  <div class="calculator-form">
+    <mat-form-field appearance="outline">
+      <mat-label>Adres</mat-label>
+      <input
+        type="text"
+        placeholder="Ulica"
+        aria-label="Number"
+        matInput
+        [formControl]="streetInput"
+        formControlName="street"
+        [matAutocomplete]="auto"
+      />
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let street of streets | async" [value]="street">
+          {{ street }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    <div class="info-container">
+      <div class="info" *ngIf="isGasAvailable | async">
+        <mat-icon class="check-icon">check_circle</mat-icon>
+        Masz możliwość podłączenia gazu
+      </div>
+      <div class="info" *ngIf="isHeatingPlantAvailable | async">
+        <mat-icon class="check-icon">check_circle</mat-icon>
+        Masz możliwość podłączenia do ciepłowni
+      </div>
+      <div class="info" *ngIf="gasPlannedYear | async as year">
+        <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie gazu w
+        roku {{ year }}
+      </div>
+      <div class="info" *ngIf="heatingPlannedYear | async as year">
+        <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie do
+        ciepłowni w roku {{ year }}
+      </div>
     </div>
-    <div class="info" *ngIf="isHeatingPlantAvailable | async">
-      <mat-icon class="check-icon">check_circle</mat-icon> Masz możliwość podłączenia do ciepłowni
-    </div>
-    <div class="info" *ngIf="(gasPlannedYear | async) as year">
-      <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie gazu w roku {{year}}
-    </div>
-    <div class="info" *ngIf="(heatingPlannedYear | async) as year">
-      <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie do ciepłowni w roku {{year}}
+    <mat-form-field appearance="outline">
+      <mat-label>Obecne źródło ogrzewania</mat-label>
+      <mat-select formControlName="currentHeatSource">
+        <mat-option
+          *ngFor="let heatingSource of heatingSources"
+          [value]="heatingSource.value"
+        >
+          {{ heatingSource.description }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-label>Miejsce zamieszkania</mat-label>
+    <mat-button-toggle-group name="thermalInsulation" appearance="legacy">
+      <mat-button-toggle value="singleFamily"
+        >Dom jednorodzinny</mat-button-toggle
+      >
+      <mat-button-toggle value="multiFamily"
+        >Zabudowa wielorodzinna</mat-button-toggle
+      >
+    </mat-button-toggle-group>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Powierzchnia użytkowa w m2</mat-label>
+      <input
+        formControlName="houseSize"
+        type="number"
+        min="30"
+        max="400"
+        matInput
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Liczba mieszkańców</mat-label>
+      <mat-select formControlName="occupants">
+        <mat-option *ngFor="let number of familyMemberNumber" [value]="number">
+          {{ number }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="submit-button-container">
+      <button mat-raised-button color="primary">Oblicz</button>
     </div>
   </div>
-  <mat-form-field appearance="outline">
-    <mat-label>Obecne źródło ogrzewania</mat-label>
-    <mat-select>
-      <mat-option *ngFor="let heatingSource of heatingSources" [value]="heatingSource.value">
-        {{heatingSource.description}}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-
-  <mat-label>Miejsce zamieszkania</mat-label>
-  <mat-button-toggle-group name="thermalInsulation" appearance="legacy">
-    <mat-button-toggle value="singleFamily">Dom jednorodzinny</mat-button-toggle>
-    <mat-button-toggle value="multiFamily">Zabudowa wielorodzinna</mat-button-toggle>
-  </mat-button-toggle-group>
-
-  <mat-form-field appearance="outline">
-    <mat-label>Powierzchnia użytkowa w m2</mat-label>
-    <input type="number" min="30" max="400" matInput>
-  </mat-form-field>
-
-  <mat-form-field appearance="outline">
-    <mat-label>Liczba mieszkańców</mat-label>
-    <mat-select>
-      <mat-option *ngFor="let number of familyMemberNumber" [value]="number">
-        {{number}}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-
-  <div class="submit-button-container">
-    <button mat-raised-button color="primary" matStepperNext>Oblicz</button>
-  </div>
-</div>
+</form>
