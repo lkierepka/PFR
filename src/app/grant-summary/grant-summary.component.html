@@ -1,1 +1,34 @@
-<p>grant-summary works!</p>
+<ng-container *ngFor="let grant of grants">
+    <h2>{{grant.name}}</h2>
+    <div class="grant-info">
+        <div class="info-section">{{grant.description}}</div>
+        <div class="arrow-right">
+            <mat-icon>arrow_forward</mat-icon>
+        </div>
+        <div class="info-section">{{grant.grantAmount}}</div>
+        <div class="arrow-right">
+            <mat-icon>arrow_forward</mat-icon>
+        </div>
+        <div class="link-section">Brzmi ciekawie? Sięgnij po więcej informacji!
+            <p>
+                <a mat-mini-fab color="primary" [href]="grant.link">
+                    <mat-icon>link</mat-icon>
+                </a>
+                Strona urzędu
+            </p>
+            <p>
+                <a mat-mini-fab color="primary" [href]="grant.attachment">
+                    <mat-icon>download</mat-icon>
+                </a>
+                Wniosek o dotację
+            </p>
+        </div>
+    </div>
+</ng-container>
+
+<mat-card class="contact-us">
+    <p>Potrzebujesz pomocy? Zadzwoń do nas i upewnij się, że dotacja Ci przysługuje!</p>
+    <a mat-fab color="primary" aria-label="Button to make a call to ">
+        <mat-icon>call</mat-icon>
+    </a>
+</mat-card>

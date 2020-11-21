@@ -1,0 +1,33 @@
+.grant-info {
+    display: flex;
+}
+
+.info-section {
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    width: 30%;
+}
+
+.arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-section {
+    width: 30%;
+    display: flex;
+    text-align: justify;
+    margin: 5px;
+    flex-direction: column;
+}
+
+
+.contact-us {
+    width: 40%;
+    align-items: flex-end;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
