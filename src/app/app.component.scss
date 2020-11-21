@@ -4,13 +4,29 @@
   
 .page-container {
     margin: 20px;
+    display: flex;
 }
 
 .content-container {
-    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
 }
 
 .spacer {
     flex: 1 1 auto;
 }
   
+
+@media (max-width:767px) {
+    .page-container {
+        margin: 5px;
+        display: flex;
+    }
+
+    .content-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
