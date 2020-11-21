@@ -10,8 +10,17 @@
   color: white;
 }
 
+::ng-deep .mat-form-field-wrapper {
+  padding-bottom: 2px !important;
+}
+
 mat-label {
+  margin-top: 20px;
   margin-bottom: 5px;
+}
+
+mat-form-field {
+  margin-top: 20px;
 }
 
 ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
@@ -61,6 +70,11 @@ mat-button-toggle-group {
 .info {
   display: flex;
   align-items: center;
+  margin-bottom: 3px;
+}
+
+.info-container {
+  margin-bottom: 3px;
 }
 
 /* Extra small devices (phones, less than 768px) */

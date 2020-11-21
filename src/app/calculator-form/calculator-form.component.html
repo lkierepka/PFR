@@ -1,14 +1,15 @@
 <div class="calculator-form">
-    <mat-form-field appearance="outline">
-      <mat-label>Adres</mat-label>
-      <input type="text" placeholder="Ulica" aria-label="Number" matInput [formControl]="streetInput"
-        [matAutocomplete]="auto">
-      <mat-autocomplete #auto="matAutocomplete">
-        <mat-option *ngFor="let street of streets | async" [value]="street">
-          {{street}}
-        </mat-option>
-      </mat-autocomplete>
-    </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Adres</mat-label>
+    <input type="text" placeholder="Ulica" aria-label="Number" matInput [formControl]="streetInput"
+      [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let street of streets | async" [value]="street">
+        {{street}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <div class="info-container">
     <div class="info" *ngIf="isGasAvailable | async">
       <mat-icon class="check-icon">check_circle</mat-icon> Masz możliwość podłączenia gazu
     </div>
@@ -16,11 +17,12 @@
       <mat-icon class="check-icon">check_circle</mat-icon> Masz możliwość podłączenia do ciepłowni
     </div>
     <div class="info" *ngIf="(gasPlannedYear | async) as year">
-      <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie gazu na rok {{year}}
+      <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie gazu w roku {{year}}
     </div>
     <div class="info" *ngIf="(heatingPlannedYear | async) as year">
-      <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie do ciepłowni na rok {{year}}
+      <mat-icon class="info-icon">info</mat-icon> Planowane podłączenie do ciepłowni w roku {{year}}
     </div>
+  </div>
   <mat-form-field appearance="outline">
     <mat-label>Obecne źródło ogrzewania</mat-label>
     <mat-select>
@@ -50,7 +52,7 @@
     </mat-select>
   </mat-form-field>
 
-    <div class="submit-button-container">
-        <button mat-raised-button color="primary" matStepperNext>Oblicz</button>
-    </div>
+  <div class="submit-button-container">
+    <button mat-raised-button color="primary" matStepperNext>Oblicz</button>
+  </div>
 </div>
