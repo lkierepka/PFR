@@ -1,4 +1,4 @@
-@import '~@angular/material/theming';
+@import "~@angular/material/theming";
 
 * {
   box-sizing: border-box;
@@ -36,15 +36,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgb(186, 225, 224);
+  background-color: #31572c;
   color: white;
-  padding: 10px;
-  font-size: 15px;
+  padding: 10px 25px;
+  font-size: 25px;
   text-align: center;
 }
 
 .container .btn:hover {
-  background-color: rgb(168, 194, 71);
+  background-color: #132a13;
 }
 
 @media (max-width: 767px) {
@@ -61,21 +61,21 @@
 }
 
 .mat-toolbar.mat-primary {
-  background:rgba(168,194, 71);
+  background: rgba(168, 194, 71);
   color: #fff;
 }
 
-::ng-deep .mat-step-header .mat-step-icon-selected, 
-::ng-deep .mat-step-header .mat-step-icon-state-done, 
+::ng-deep .mat-step-header .mat-step-icon-selected,
+::ng-deep .mat-step-header .mat-step-icon-state-done,
 ::ng-deep .mat-step-header .mat-step-icon-state-edit {
-  background:rgba(168,194, 71);
+  background: rgba(168, 194, 71);
   color: #fff;
 }
 
-::ng-deep .mat-flat-button.mat-primary, 
-::ng-deep .mat-raised-button.mat-primary, 
-::ng-deep .mat-fab.mat-primary, 
+::ng-deep .mat-flat-button.mat-primary,
+::ng-deep .mat-raised-button.mat-primary,
+::ng-deep .mat-fab.mat-primary,
 ::ng-deep .mat-mini-fab.mat-primary {
-  background:rgba(168,194, 71);
+  background: rgba(168, 194, 71);
   color: #fff;
 }
