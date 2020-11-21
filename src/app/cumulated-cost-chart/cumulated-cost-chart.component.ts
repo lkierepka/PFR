@@ -29,7 +29,7 @@ export class CumulatedCostChartComponent {
   animations: boolean = true;
   xAxis: boolean = true;
   yAxis: boolean = true;
-  xAxisLabel: string = 'Lata';
+  xAxisLabel: string = 'Rok';
   yAxisLabel: string = 'Koszt w PLN';
   showXAxis = true;
   showYAxis = true;
@@ -39,7 +39,7 @@ export class CumulatedCostChartComponent {
   showYAxisLabel = true;
 
   colorScheme = {
-    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA'],
+    domain: ['#5AA454', '#7AA3E5', '#F2DFA7', '#A27EA8', '#A8385D'],
   };
   constructor(private costProvider: CostProviderService) {
     this.costs$ = this.costProvider.costs$().pipe(shareReplay());

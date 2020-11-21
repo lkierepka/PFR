@@ -22,20 +22,20 @@ export class AverageYearlyCostChartComponent {
   costs$: Observable<ICost[]>;
   costsSeries$: Observable<{ name: string; value: number }[]>;
 
-  view: any[] = [700, 400];
+  view: any[] = [500, 400];
 
   // options
   showXAxis = true;
   showYAxis = true;
   gradient = false;
-  showLegend = true;
   showXAxisLabel = true;
   xAxisLabel = 'Źródła ogrzewania';
   showYAxisLabel = true;
-  yAxisLabel = 'Koszt';
+  yAxisLabel = 'Koszt w PLN';
+  barPadding = 10
 
   colorScheme = {
-    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA'],
+    domain: ['#5AA454', '#7AA3E5', '#F2DFA7', '#A27EA8', '#A8385D'],
   };
   constructor(private costProvider: CostProviderService) {
     this.costs$ = this.costProvider.costs$().pipe(shareReplay());
