@@ -20,9 +20,17 @@ import { GasPipelineStreetProviderService } from './services/gas-pipeline-availa
 import { HeatingPlantStreetProviderService } from './services/heating-plant-availability-provider.service';
 import { StreetProviderService } from './street-provider.service';
 import { CostProviderService } from './cost-provider.service';
+import { AverageYearlyCostChartComponent } from './average-yearly-cost-chart/average-yearly-cost-chart.component';
+import { CoalPriceChartComponent } from './coal-price-chart/coal-price-chart.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
-  declarations: [AppComponent, CalculatorFormComponent],
+  declarations: [
+    AppComponent,
+    CalculatorFormComponent,
+    AverageYearlyCostChartComponent,
+    CoalPriceChartComponent,
+  ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
@@ -38,14 +46,15 @@ import { CostProviderService } from './cost-provider.service';
     MatStepperModule,
     MatToolbarModule,
     MatIconModule,
+    NgxChartsModule,
   ],
   providers: [
     GasPipelineStreetProviderService,
     HeatingPlantStreetProviderService,
     StreetProviderService,
     CostProviderService,
-    HttpClientModule
+    HttpClientModule,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
