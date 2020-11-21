@@ -16,6 +16,10 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { GasPipelineStreetProviderService } from './services/gas-pipeline-availability-provider.service';
+import { HeatingPlantStreetProviderService } from './services/heating-plant-availability-provider.service';
+import { StreetProviderService } from './street-provider.service';
+import { CostProviderService } from './cost-provider.service';
 
 @NgModule({
   declarations: [AppComponent, CalculatorFormComponent],
@@ -35,7 +39,13 @@ import { MatIconModule } from '@angular/material/icon';
     MatToolbarModule,
     MatIconModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent],
+  providers: [
+    GasPipelineStreetProviderService,
+    HeatingPlantStreetProviderService,
+    StreetProviderService,
+    CostProviderService,
+    HttpClientModule
+  ],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

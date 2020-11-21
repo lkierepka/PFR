@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HeatingPlantStreetProviderService } from './heating-plant-availability-provider.service';
 import { GasPipelineStreetProviderService } from './gas-pipeline-availability-provider.service';
-import { ConnectedStreet } from '../models/connectedStreet';
 import { Observable } from 'rxjs';
 import { AvailableNetworkSources } from '../models/available-network-sources-viewmodel';
+import { ConnectedStreet } from '../models/connected-street-model';
 
 @Injectable({
   providedIn: 'root'

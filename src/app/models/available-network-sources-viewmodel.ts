@@ -1,4 +1,4 @@
-import { ConnectedStreet } from './connectedStreet';
+import { ConnectedStreet } from './connected-street-model';
 
 export class AvailableNetworkSources {
   gasNetworkAvailable: boolean;
@@ -20,15 +20,16 @@ export class AvailableNetworkSources {
     const availabilityObject = new AvailableNetworkSources();
     if (gasNetworkStreetData) {
       availabilityObject.gasNetworkAvailable = true;
-      if (gasNetworkStreetData.planed) {
-        availabilityObject.gasNetworkPlanedOn = gasNetworkStreetData.planedYear;
+      if (gasNetworkStreetData.planned) {
+        availabilityObject.gasNetworkPlanedOn =
+          gasNetworkStreetData.plannedYear;
       }
     }
     if (heatingPlantStreetData) {
       availabilityObject.heatingPlantAvailable = true;
-      if (heatingPlantStreetData.planed) {
+      if (heatingPlantStreetData.planned) {
         availabilityObject.heatingPlantPlannedOn =
-          heatingPlantStreetData.planedYear;
+          heatingPlantStreetData.plannedYear;
       }
     }
     return availabilityObject;

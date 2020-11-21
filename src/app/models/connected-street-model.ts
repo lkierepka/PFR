@@ -1,5 +1,5 @@
 export interface ConnectedStreet {
   name: string;
-  planed: boolean;
-  planedYear: number;
+  planned: boolean;
+  plannedYear: number;
 }
