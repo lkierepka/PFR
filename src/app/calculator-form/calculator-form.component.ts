@@ -32,6 +32,7 @@ export class CalculatorFormComponent implements OnInit {
     { value: HeatingSourceEnum.condensingGasBoiler, description: 'Kondensacyjny kocioł gazowy' },
     { value: HeatingSourceEnum.convGasBoiler, description: 'Atmosferyczny kocioł gazowy' },
     { value: HeatingSourceEnum.electricHeater, description: 'Elektryczny piec' },
+    { value: HeatingSourceEnum.biomassBoiler, description: 'Kocioł na biomasę' },
   ];
 
   public readonly familyMemberNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8];

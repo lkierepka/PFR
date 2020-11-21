@@ -1,11 +1,7 @@
 <mat-toolbar color="primary">
   <span>Kalkulator kosztów ogrzewania</span>
   <span class="spacer"></span>
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with share icon"
-  >
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
     <mat-icon>remove_red_eye</mat-icon>
   </button>
 </mat-toolbar>
@@ -22,6 +18,7 @@
     </mat-step>
     <mat-step>
       <ng-template matStepLabel>Zdobądź dotacje</ng-template>
+      <app-grant-summary></app-grant-summary>
     </mat-step>
   </mat-horizontal-stepper>
 </div>
