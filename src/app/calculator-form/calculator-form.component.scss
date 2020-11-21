@@ -5,6 +5,31 @@
     margin: auto;
 }
 
+.mat-button-toggle-checked {
+  background-color: rgba(129,167,54);
+  color: white;
+}
+
+mat-label {
+  margin-bottom: 5px;
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: rgba(129,167,54);
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: rgba(129,167,54);
+ }
+
+ ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: rgba(129,167,54);
+ }
+
+ ::ng-deep .mat-form-field-should-float .mat-focused {
+  color: rgba(129,167,54);
+ }
+
 mat-button-toggle-group {
     width: min-content;
     margin-bottom: 20px;
