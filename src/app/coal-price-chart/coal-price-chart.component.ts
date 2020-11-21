@@ -9,12 +9,12 @@ import { CoalPriceService, ICoalPrice } from '../coal-price.service';
   styleUrls: ['./coal-price-chart.component.scss'],
 })
 export class CoalPriceChartComponent implements OnInit {
-  coalPrices$?: Observable<ICoalPrice[]>;
-  coalPricesSeries$?: Observable<
+  coalPrices$: Observable<ICoalPrice[]>;
+  coalPricesSeries$: Observable<
     { name: string; series: { name: string; value: number }[] }[]
   >;
-  coalPriceMinScale$?: Observable<number>;
-  coalPriceMaxScale$?: Observable<number>;
+  coalPriceMinScale$: Observable<number>;
+  coalPriceMaxScale$: Observable<number>;
   view: [number, number] = [700, 300];
   colorScheme = {
     domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5'],
@@ -27,9 +27,7 @@ export class CoalPriceChartComponent implements OnInit {
   xAxisLabel: string = 'Rok';
   yAxisLabel: string = 'Cena w PLN';
 
-  constructor(private coalPriceService: CoalPriceService) {}
-
-  ngOnInit(): void {
+  constructor(private coalPriceService: CoalPriceService) {
     this.coalPrices$ = this.coalPriceService.coalPrices$().pipe(shareReplay());
     this.coalPricesSeries$ = this.coalPrices$.pipe(
       map((prices) => [
@@ -59,4 +57,6 @@ export class CoalPriceChartComponent implements OnInit {
       )
     );
   }
+
+  ngOnInit(): void {}
 }
