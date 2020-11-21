@@ -10,9 +10,13 @@
 
 .info-section {
     display: flex;
-    text-align: left;
+    flex-direction: column;
     margin: 5px;
     width: 30%;
+
+    p {
+        text-align: left;
+    }
 }
 
 .arrow-right {
@@ -35,8 +39,8 @@
     right: 0;
     bottom: 0;
     position: absolute;
+}
 
-    .bold {
-        font-weight: 700;
-    }
+.bold {
+    font-weight: 700;
 }
