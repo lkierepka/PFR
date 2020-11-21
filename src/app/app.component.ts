@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PFR';
+  public isInitialized: boolean = false;
+
+  public initializePage() {
+    this.isInitialized = true;
+  }
 }

@@ -1,18 +1,23 @@
-<mat-toolbar color="primary">
+<div class="container" *ngIf="!isInitialized">
+  <button
+    mat-raised-button
+    class="btn"
+    color="primary"
+    (click)="initializePage()"
+  >
+    Rozpocznij
+  </button>
+  <img class="images" src="../assets/startPage.jpg" />
+</div>
+<mat-toolbar color="primary" *ngIf="isInitialized">
   <span>Kalkulator kosztów ogrzewania</span>
   <span class="spacer"></span>
   <button mat-icon-button class="example-icon" aria-label="Contrast">
     <mat-icon>remove_red_eye</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon" aria-label="Zoom in">
-    <mat-icon>zoom_in</mat-icon>
-  </button>
-  <button mat-icon-button class="example-icon" aria-label="Zoom out">
-    <mat-icon>zoom_out</mat-icon>
-  </button>
 </mat-toolbar>
 
-<div class="page-container">
+<div class="page-container" *ngIf="isInitialized">
   <mat-horizontal-stepper #stepper [linear]="false" class="content-container">
     <mat-step>
       <ng-template matStepLabel>Wypełnij formularz</ng-template>
