@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
-import { GasPipelineStreetProviderService } from './gas-pipeline-availability-provider.service';
+import { GasPipelineStreetProviderService } from '../gas-pipeline-availability-provider.service';
 
-describe('StreetProviderService', () => {
+describe('GasPipelineStreetProviderService', () => {
   let service: GasPipelineStreetProviderService;
 
   beforeEach(() => {

@@ -1,602 +1,602 @@
 [
-	{
-		"name" : "Dojazd" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Agrestowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Bałtycka" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Boczna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Braterska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Fryderyka Chopina" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Hetmana Stefana Czarneckiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Czeska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Dobra" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Janusza Teodora Dybowskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Getta Żydowskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Główna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Graniczna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Hetmańska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Władysława Jagiełły" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Jedności" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Kanałowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Jana Kazimierza" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Jana Kilińskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Klonowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "prof. dr. Tadeusza Kobusiewicza" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "św. Maksymiliana Marii Kolbego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Marii Konopnickiej" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Kościelna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "pasaż dr. Jakuba Lemberga" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Łaska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Łąkowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Łódzka" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Młynarska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Mostowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Nadziei" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Gabriela Narutowicza" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Narwiańska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Notecka" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Obrońców Westerplatte" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Odrzańska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Opiesińska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Piaskowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Longinusa Podbipięty" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Podmiejska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Pokoju" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Polna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Południowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Haliny Poświatowskiej" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Pasaż Powstańców Śląskich" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Prosta" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Radosna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Mikołaja Reja" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Władysława Reymonta" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Rycerska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Serdeczna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Henryka Sienkiewicza" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Sieradzka" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "gen. Władysława Sikorskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Jana Skrzetuskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Jana III Sobieskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Sokoła" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Andrzeja Struga" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Strzelecka" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Szadkowska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Jerzego Szaniawskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Śnieżna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "ks. Prof. Józefa Tischnera" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Topolowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Torfowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Tymieniecka" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Wczasowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Wiklinowa" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Wilcza" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Wodna" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Wschodnia" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "kardynała Stefana Wyszyńskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Zachodnia" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Zagłoby" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Zakopiańska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Zduńska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Zgody" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Zielonogórska" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Złota" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Stefana Złotnickiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Stanisława Żółkiewskiego" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Żurawia" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Żytnia" ,
-		"planed": false,
-		"planedYear": 2020
-	},
-	{
-		"name" : "Azaliowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Borowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Jarosława Dąbrowskiego" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Grabowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Jodłowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Juliusza" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Karsznicka" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Klasztorna" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Kościelna" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Kręta" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Łaska" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "1-go Maja" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Adama Mickiewicza" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Mostowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Obywatelska" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Stefana Okrzei" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Orzycka" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Osmolińska" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Paprocka" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Piłkarska" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Polna" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Sieradzka" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Słowiańska" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Spacerowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Spółdzielcza" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Srebrna" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Stanisława Staszica" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Świerkowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Targowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Tkacka" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Tymienicka" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Warcka" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Wiklinowa" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Wspólna" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Zielona" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Zielonogórska" ,
-		"planed": true,
-		"planedYear": 2023
-	},
-	{
-		"name" : "Stefana Żeromskiego" ,
-		"planed": true,
-		"planedYear": 2023
-	}
+  {
+    "name": "Dojazd",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Agrestowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Bałtycka",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Boczna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Braterska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Fryderyka Chopina",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Hetmana Stefana Czarneckiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Czeska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Dobra",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Janusza Teodora Dybowskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Getta Żydowskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Główna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Graniczna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Hetmańska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Władysława Jagiełły",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Jedności",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Kanałowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Jana Kazimierza",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Jana Kilińskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Klonowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "prof. dr. Tadeusza Kobusiewicza",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "św. Maksymiliana Marii Kolbego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Marii Konopnickiej",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Kościelna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "pasaż dr. Jakuba Lemberga",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Łaska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Łąkowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Łódzka",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Młynarska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Mostowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Nadziei",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Gabriela Narutowicza",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Narwiańska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Notecka",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Obrońców Westerplatte",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Odrzańska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Opiesińska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Piaskowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Longinusa Podbipięty",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Podmiejska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Pokoju",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Polna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Południowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Haliny Poświatowskiej",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Pasaż Powstańców Śląskich",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Prosta",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Radosna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Mikołaja Reja",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Władysława Reymonta",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Rycerska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Serdeczna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Henryka Sienkiewicza",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Sieradzka",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "gen. Władysława Sikorskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Jana Skrzetuskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Jana III Sobieskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Sokoła",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Andrzeja Struga",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Strzelecka",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Szadkowska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Jerzego Szaniawskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Śnieżna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "ks. Prof. Józefa Tischnera",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Topolowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Torfowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Tymieniecka",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Wczasowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Wiklinowa",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Wilcza",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Wodna",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Wschodnia",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "kardynała Stefana Wyszyńskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Zachodnia",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Zagłoby",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Zakopiańska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Zduńska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Zgody",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Zielonogórska",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Złota",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Stefana Złotnickiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Stanisława Żółkiewskiego",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Żurawia",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Żytnia",
+    "planned": false,
+    "plannedYear": 2020
+  },
+  {
+    "name": "Azaliowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Borowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Jarosława Dąbrowskiego",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Grabowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Jodłowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Juliusza",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Karsznicka",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Klasztorna",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Kościelna",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Kręta",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Łaska",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "1-go Maja",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Adama Mickiewicza",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Mostowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Obywatelska",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Stefana Okrzei",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Orzycka",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Osmolińska",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Paprocka",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Piłkarska",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Polna",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Sieradzka",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Słowiańska",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Spacerowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Spółdzielcza",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Srebrna",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Stanisława Staszica",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Świerkowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Targowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Tkacka",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Tymienicka",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Warcka",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Wiklinowa",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Wspólna",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Zielona",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Zielonogórska",
+    "planned": true,
+    "plannedYear": 2023
+  },
+  {
+    "name": "Stefana Żeromskiego",
+    "planned": true,
+    "plannedYear": 2023
+  }
 ]

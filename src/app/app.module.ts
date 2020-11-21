@@ -14,6 +14,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatStepperModule } from '@angular/material/stepper';
+import { GasPipelineStreetProviderService } from './services/gas-pipeline-availability-provider.service';
+import { HeatingPlantStreetProviderService } from './services/heating-plant-availability-provider.service';
+import { StreetProviderService } from './street-provider.service';
+import { CostProviderService } from './cost-provider.service';
 
 @NgModule({
   declarations: [AppComponent, CalculatorFormComponent],
@@ -29,9 +33,15 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatButtonModule,
     HttpClientModule,
     MatSelectModule,
-    MatStepperModule,
+    MatStepperModule
   ],
-  providers: [],
-  bootstrap: [AppComponent],
+  providers: [
+    GasPipelineStreetProviderService,
+    HeatingPlantStreetProviderService,
+    StreetProviderService,
+    CostProviderService,
+    HttpClientModule
+  ],
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

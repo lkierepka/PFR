@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
-import { HeatingPlantStreetProviderService } from './heating-plant-availability-provider.service';
+import { HeatingPlantStreetProviderService } from '../heating-plant-availability-provider.service';
 
-describe('StreetProviderService', () => {
+describe('HeatingPlantStreetProviderService', () => {
   let service: HeatingPlantStreetProviderService;
 
   beforeEach(() => {

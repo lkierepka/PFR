@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { map, mergeMap } from 'rxjs/operators';
 import { StreetProviderService } from '../street-provider.service';
 import { HeatingSourceEnum } from './heating-source.enum';
+import { NetworkHeatSourcesAvailabilityService } from '../services/heat-sources-availability.service';
 
 export interface HeatingSource {
   value: HeatingSourceEnum;
@@ -18,7 +19,7 @@ export interface HeatingSource {
 
 export class CalculatorFormComponent implements OnInit {
   streetInput = new FormControl();
-  constructor(public streetProvider: StreetProviderService) { }
+  constructor(public streetProvider: StreetProviderService, private readonly heatSourcesService: NetworkHeatSourcesAvailabilityService) { }
 
   public streets?: Observable<string[]>;
 

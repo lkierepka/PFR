@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, BehaviorSubject } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
-import { ConnectedStreet } from '../models/connectedStreet';
+import { ConnectedStreet } from '../models/connected-street-model';
 
 @Injectable({
   providedIn: 'root'
