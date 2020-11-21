@@ -61,10 +61,24 @@
 }
 
 .mat-toolbar.mat-primary {
-  background: rgba(168, 194, 71);
+  background: #31572c;
   color: #fff;
 }
 
+.centered {
+  position: absolute;
+  text-align: center;
+  color: #31572c;
+  font-size: 30px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
 ::ng-deep .mat-step-header .mat-step-icon-selected,
 ::ng-deep .mat-step-header .mat-step-icon-state-done,
 ::ng-deep .mat-step-header .mat-step-icon-state-edit {
