@@ -23,6 +23,7 @@ import { CostProviderService } from './cost-provider.service';
 import { AverageYearlyCostChartComponent } from './average-yearly-cost-chart/average-yearly-cost-chart.component';
 import { CoalPriceChartComponent } from './coal-price-chart/coal-price-chart.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
     CalculatorFormComponent,
     AverageYearlyCostChartComponent,
     CoalPriceChartComponent,
+    ResultsComponent,
   ],
   imports: [
     BrowserModule,
