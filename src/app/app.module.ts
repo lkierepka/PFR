@@ -24,6 +24,7 @@ import { AverageYearlyCostChartComponent } from './average-yearly-cost-chart/ave
 import { CoalPriceChartComponent } from './coal-price-chart/coal-price-chart.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { GrantSummaryComponent } from './grant-summary/grant-summary.component';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { GrantSummaryComponent } from './grant-summary/grant-summary.component';
     AverageYearlyCostChartComponent,
     CoalPriceChartComponent,
     GrantSummaryComponent,
+    ResultsComponent,
   ],
   imports: [
     BrowserModule,
@@ -60,4 +62,4 @@ import { GrantSummaryComponent } from './grant-summary/grant-summary.component';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
