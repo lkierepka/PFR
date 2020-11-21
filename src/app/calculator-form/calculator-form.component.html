@@ -1,31 +1,46 @@
 <div class="calculator-form">
     <mat-form-field appearance="fill">
         <mat-label>Adres</mat-label>
-        <input
-           type="text"
-           placeholder="Ulica"
-           aria-label="Number"
-           matInput
-           [formControl]="streetInput"
-           [matAutocomplete]="auto">
-    <mat-autocomplete #auto="matAutocomplete">
-      <mat-option *ngFor="let street of streets | async" [value]="street">
-        {{street}}
-      </mat-option>
-    </mat-autocomplete>
+        <input type="text" placeholder="Ulica" aria-label="Number" matInput [formControl]="streetInput"
+            [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let street of streets | async" [value]="street">
+                {{street}}
+            </mat-option>
+        </mat-autocomplete>
     </mat-form-field>
 
+    <h4>Obecne Źródło Ogrzewania</h4>
     <mat-form-field appearance="fill">
-        <mat-label>Powierzchnia domu</mat-label>
+        <mat-label>Obecne Źródło Ogrzewania</mat-label>
+        <mat-select>
+            <mat-option *ngFor="let heatingSource of heatingSources" [value]="heatingSource.value">
+                {{heatingSource.description}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <h4>Miejsce Zamieszkania</h4>
+    <mat-button-toggle-group name="thermalInsulation" appearance="legacy">
+        <mat-button-toggle value="singleFamily">Dom jednorodzinny</mat-button-toggle>
+        <mat-button-toggle value="multiFamily">Zabudowa wielorodzinna</mat-button-toggle>
+    </mat-button-toggle-group>
+
+    <h4>Powierzchnia użytkowa w m2</h4>
+    <mat-form-field appearance="fill">
+        <mat-label>Powierzchnia użytkowa w m2</mat-label>
         <input type="number" min="30" max="400" matInput>
     </mat-form-field>
 
-    <mat-label class="bottom-margin-5">Ocieplenie domu</mat-label>
-    <mat-button-toggle-group name="thermalInsulation" appearance="legacy">
-        <mat-button-toggle value="poor">Słabe</mat-button-toggle>
-        <mat-button-toggle value="medium">Średnie</mat-button-toggle>
-        <mat-button-toggle value="good">Dobre</mat-button-toggle>
-    </mat-button-toggle-group>
+    <h4>Liczba mieszkańców</h4>
+    <mat-form-field appearance="fill">
+        <mat-label>Liczba mieszkańców</mat-label>
+        <mat-select>
+            <mat-option *ngFor="let number of familyMemberNumber" [value]="number">
+                {{number}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
 
     <div class="submit-button">
         <button mat-raised-button color="primary">Oblicz</button>
