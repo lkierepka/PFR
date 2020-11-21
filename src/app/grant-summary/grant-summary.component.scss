@@ -23,6 +23,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    mat-icon {
+        font-weight: 700;
+    }
 }
 
 .link-section {
@@ -35,10 +39,10 @@
 
 .contact-us {
     width: 40%;
-    position: absolute;
+    position: fixed;
     right: 10px;
     bottom: 10px;
-    background: rgba(168, 194, 71, 0.5);
+    background: rgba(216, 233, 151, 1);
 }
 
 .bold {
@@ -52,4 +56,13 @@
 
 .desc {
     margin-left: 10px;
+}
+
+.footer {
+    height: 200px;
+}
+
+.grant-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
