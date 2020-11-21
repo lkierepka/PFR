@@ -2,50 +2,36 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
 
-interface ICost {
+export interface IMinMax {
+  min: number;
+  max: number;
+}
+export interface IHouseSizeMinMax {
+  max100m: IMinMax;
+  max200m: IMinMax;
+  min200m: IMinMax;
+}
+
+export interface IHouseSizeAvg {
+  max100m: {
+    avg: number;
+  };
+  max200m: {
+    avg: number;
+  };
+  min200m: {
+    avg: number;
+  };
+}
+
+export interface ICost {
   name: string;
   installation: {
-    external: {
-      min: number;
-      max: number;
-    };
-    internal: {
-      max100m: {
-        avg: number;
-      };
-      max200m: {
-        avg: number;
-      };
-      min200m: {
-        avg: number;
-      };
-    };
-    cauldron: {
-      max100m: {
-        avg: number;
-      };
-      max200m: {
-        avg: number;
-      };
-      min200m: {
-        avg: number;
-      };
-    };
+    external: IMinMax;
+    internal: IHouseSizeAvg;
+    cauldron: IHouseSizeAvg;
   };
-  yearlyAvg: {
-    max100m: {
-      min: number;
-      max: number;
-    };
-    max200m: {
-      min: number;
-      max: number;
-    };
-    min200m: {
-      min: number;
-      max: number;
-    };
-  };
+  yearlyAvg: IHouseSizeMinMax;
 }
 
 @Injectable({
@@ -68,7 +54,7 @@ export class CostProviderService {
   private mapRowToCost(value: string): ICost {
     const row = value.split(',');
     const name = row.splice(0, 1)[0];
-    const rowNumbers = row.map(Number.parseInt);
+    const rowNumbers = row.map((r) => Number.parseInt(r));
     return {
       name: name,
       installation: {
