@@ -18,3 +18,18 @@ mat-button-toggle-group {
     width: 60px;
     align-self: flex-end;
 }
+
+.check-icon {
+  color: green;
+  padding-right: 5px;
+}
+
+.info-icon {
+  color: rgb(250, 221, 80);
+  padding-right: 5px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}

@@ -33,6 +33,7 @@ import { CostProviderService } from './cost-provider.service';
     OverlayModule,
     MatButtonToggleModule,
     MatButtonModule,
+    MatIconModule,
     HttpClientModule,
     MatSelectModule,
     MatStepperModule,

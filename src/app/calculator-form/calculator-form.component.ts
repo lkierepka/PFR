@@ -22,6 +22,10 @@ export class CalculatorFormComponent implements OnInit {
   constructor(public streetProvider: StreetProviderService, private readonly heatSourcesService: NetworkHeatSourcesAvailabilityService) { }
 
   public streets?: Observable<string[]>;
+  public isGasAvailable?: Observable<boolean>;
+  public gasPlannedYear?: Observable<number | undefined>;
+  public isHeatingPlantAvailable?: Observable<boolean>;
+  public heatingPlannedYear?: Observable<number | undefined>;
 
   public readonly heatingSources: HeatingSource[] = [
     { value: HeatingSourceEnum.coalFiredBoiler, description: 'Kocioł na węgiel' },
@@ -35,6 +39,14 @@ export class CalculatorFormComponent implements OnInit {
   public ngOnInit(): void {
     this.streets = this.streetProvider.streets$().pipe(mergeMap(streets =>
       this.streetInput?.valueChanges.pipe(map(street => this.filter(street, streets)))));
+    this.isGasAvailable = this.streetInput.valueChanges.pipe(
+      map(street => this.heatSourcesService.checkStreetHeatSources(street).gasNetworkAvailable));
+    this.gasPlannedYear = this.streetInput.valueChanges.pipe(
+      map(street => this.heatSourcesService.checkStreetHeatSources(street).gasNetworkPlanedOn));
+    this.isHeatingPlantAvailable = this.streetInput.valueChanges.pipe(
+      map(street => this.heatSourcesService.checkStreetHeatSources(street).heatingPlantAvailable));
+    this.heatingPlannedYear = this.streetInput.valueChanges.pipe(
+      map(street => this.heatSourcesService.checkStreetHeatSources(street).heatingPlantPlannedOn));
   }
 
   private filter(value: string, streets: string[]): string[] {

@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HeatingPlantStreetProviderService } from './heating-plant-availability-provider.service';
 import { GasPipelineStreetProviderService } from './gas-pipeline-availability-provider.service';
-import { Observable } from 'rxjs';
 import { AvailableNetworkSources } from '../models/available-network-sources-viewmodel';
 import { ConnectedStreet } from '../models/connected-street-model';
 
@@ -35,13 +34,15 @@ export class NetworkHeatSourcesAvailabilityService {
   }
 
   public checkStreetHeatSources(streetName: string): AvailableNetworkSources {
+    const streetPrefix = 'ul.';
+    const parsedStreetName = streetName.replace(streetPrefix, '').trim().toLowerCase();
     const gasPipelineConnectedStreet = this.gasPipelineStreets.find(
       connectedStreets =>
-        connectedStreets.name.toLowerCase() === streetName.toLowerCase()
+        connectedStreets.name.toLowerCase() === parsedStreetName
     );
     const heatingPlantConnectedStreet = this.heatingPlantStreets.find(
       connectedStreets =>
-        connectedStreets.name.toLowerCase() === streetName.toLowerCase()
+        connectedStreets.name.toLowerCase() === parsedStreetName
     );
     return AvailableNetworkSources.buildFromConnectedStreetData(
       gasPipelineConnectedStreet,
