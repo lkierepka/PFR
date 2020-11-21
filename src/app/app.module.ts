@@ -23,6 +23,7 @@ import { CostProviderService } from './cost-provider.service';
 import { AverageYearlyCostChartComponent } from './average-yearly-cost-chart/average-yearly-cost-chart.component';
 import { CoalPriceChartComponent } from './coal-price-chart/coal-price-chart.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { GrantSummaryComponent } from './grant-summary/grant-summary.component';
 import { ResultsComponent } from './results/results.component';
 import { MatCardModule } from '@angular/material/card';
 
@@ -32,6 +33,7 @@ import { MatCardModule } from '@angular/material/card';
     CalculatorFormComponent,
     AverageYearlyCostChartComponent,
     CoalPriceChartComponent,
+    GrantSummaryComponent,
     ResultsComponent,
   ],
   imports: [
@@ -62,4 +64,4 @@ import { MatCardModule } from '@angular/material/card';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
