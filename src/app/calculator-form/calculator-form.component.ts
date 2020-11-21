@@ -29,7 +29,7 @@ export class CalculatorFormComponent implements OnInit {
     { value: HeatingSourceEnum.electricHeater, description: 'Elektryczny piec' },
   ];
 
-  public readonly familyMemberNumber: number[] = [1, 2, 3, 4, 5];
+  public readonly familyMemberNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
 
   public ngOnInit(): void {
     this.streets = this.streetProvider.streets$().pipe(mergeMap(streets =>

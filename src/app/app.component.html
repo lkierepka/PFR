@@ -1,5 +1,12 @@
+<mat-toolbar color="primary">
+  <span>Kalkulator - jakaś nazwa</span>
+  <span class="spacer"></span>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>remove_red_eye</mat-icon>
+  </button>
+</mat-toolbar>
+
 <div class="page-container">
-  <div class="nav"></div>
   <mat-horizontal-stepper #stepper [linear]="false" class="content-container">
     <mat-step>
       <app-calculator-form></app-calculator-form>
