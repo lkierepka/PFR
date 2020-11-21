@@ -16,7 +16,7 @@ import {
 })
 export class AverageYearlyCostChartComponent {
   @Input()
-  houseSize: string = 'small';
+  houseSize: string = 'average';
   @Input()
   years: number = 10;
   costs$: Observable<ICost[]>;
