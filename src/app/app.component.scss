@@ -3,14 +3,13 @@
   }
   
 .page-container {
-    margin: 20px;
     display: flex;
 }
 
 .content-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .spacer {
@@ -19,14 +18,14 @@
   
 
 @media (max-width:767px) {
-    .page-container {
-        margin: 5px;
-        display: flex;
-    }
+  .page-container {
+      margin: 5px;
+      display: flex;
+  }
 
-    .content-container {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
+  .content-container {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  }
 }

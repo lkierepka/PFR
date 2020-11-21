@@ -15,7 +15,7 @@ export class CoalPriceChartComponent implements OnInit {
   >;
   coalPriceMinScale$: Observable<number>;
   coalPriceMaxScale$: Observable<number>;
-  view: [number, number] = [700, 300];
+  view: [number, number] = [600, 300];
   colorScheme = {
     domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5'],
   };
@@ -25,7 +25,7 @@ export class CoalPriceChartComponent implements OnInit {
   showYAxisLabel: boolean = true;
   showXAxisLabel: boolean = true;
   xAxisLabel: string = 'Rok';
-  yAxisLabel: string = 'Cena w PLN';
+  yAxisLabel: string = 'Cena węgla w PLN';
 
   constructor(private coalPriceService: CoalPriceService) {
     this.coalPrices$ = this.coalPriceService.coalPrices$().pipe(shareReplay());
