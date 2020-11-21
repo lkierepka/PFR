@@ -1,3 +1,5 @@
+<div class="left-color-container"></div>
+<div class="right-color-container"></div>
 <div class="container" *ngIf="!isInitialized">
   <div class="centered">
     <h1>Wybór nowego źródła energii to łatwizna,</h1>
@@ -5,14 +7,10 @@
     <h1>niż kiedykolwiek wcześniej!</h1>
   </div>
 
-  <button
-    mat-raised-button
-    class="btn"
-    color="primary"
-    (click)="initializePage()"
-  >
+  <button mat-raised-button class="btn" color="primary" (click)="initializePage()">
     Rozpocznij
   </button>
+
   <img class="images" src="../assets/startPage.jpg" />
 </div>
 <mat-toolbar color="primary" *ngIf="isInitialized">
