@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
+import { MatStepperModule } from '@angular/material/stepper';
 
 @NgModule({
   declarations: [AppComponent, CalculatorFormComponent],
@@ -27,7 +28,8 @@ import { MatSelectModule } from '@angular/material/select';
     MatButtonToggleModule,
     MatButtonModule,
     HttpClientModule,
-    MatSelectModule
+    MatSelectModule,
+    MatStepperModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

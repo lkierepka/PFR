@@ -1,5 +1,5 @@
 <div class="calculator-form">
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="outline">
         <mat-label>Adres</mat-label>
         <input type="text" placeholder="Ulica" aria-label="Number" matInput [formControl]="streetInput"
             [matAutocomplete]="auto">
@@ -10,9 +10,8 @@
         </mat-autocomplete>
     </mat-form-field>
 
-    <h4>Obecne Źródło Ogrzewania</h4>
-    <mat-form-field appearance="fill">
-        <mat-label>Obecne Źródło Ogrzewania</mat-label>
+    <mat-form-field appearance="outline">
+        <mat-label>Obecne źródło ogrzewania</mat-label>
         <mat-select>
             <mat-option *ngFor="let heatingSource of heatingSources" [value]="heatingSource.value">
                 {{heatingSource.description}}
@@ -20,20 +19,18 @@
         </mat-select>
     </mat-form-field>
 
-    <h4>Miejsce Zamieszkania</h4>
+    <mat-label>Miejsce zamieszkania</mat-label>
     <mat-button-toggle-group name="thermalInsulation" appearance="legacy">
         <mat-button-toggle value="singleFamily">Dom jednorodzinny</mat-button-toggle>
         <mat-button-toggle value="multiFamily">Zabudowa wielorodzinna</mat-button-toggle>
     </mat-button-toggle-group>
 
-    <h4>Powierzchnia użytkowa w m2</h4>
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="outline">
         <mat-label>Powierzchnia użytkowa w m2</mat-label>
         <input type="number" min="30" max="400" matInput>
     </mat-form-field>
 
-    <h4>Liczba mieszkańców</h4>
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="outline">
         <mat-label>Liczba mieszkańców</mat-label>
         <mat-select>
             <mat-option *ngFor="let number of familyMemberNumber" [value]="number">
@@ -43,6 +40,6 @@
     </mat-form-field>
 
     <div class="submit-button">
-        <button mat-raised-button color="primary">Oblicz</button>
+        <button mat-raised-button color="primary" matStepperNext>Oblicz</button>
     </div>
 </div>

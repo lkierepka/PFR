@@ -5,4 +5,4 @@ export enum HeatingSourceEnum {
     condensingGasBoiler,
     coalFiredBoiler,
     electricHeater
-};
+}
