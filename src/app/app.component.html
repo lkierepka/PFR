@@ -1,8 +1,11 @@
 <div class="page-container">
   <div class="nav"></div>
-  <div class="form-container">
-    <h3>Kalkulator</h3>
-    <app-calculator-form></app-calculator-form>
-  </div>
-
+  <mat-horizontal-stepper #stepper [linear]="false" class="content-container">
+    <mat-step>
+      <app-calculator-form></app-calculator-form>
+    </mat-step>
+    <mat-step>
+      <p>Wykresy i obliczenia</p>
+    </mat-step>
+  </mat-horizontal-stepper>
 </div>
