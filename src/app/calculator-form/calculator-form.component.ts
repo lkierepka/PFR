@@ -19,7 +19,8 @@ export interface HeatingSource {
 
 export class CalculatorFormComponent implements OnInit {
   streetInput = new FormControl();
-  constructor(public streetProvider: StreetProviderService, private readonly heatSourcesService: NetworkHeatSourcesAvailabilityService) { }
+  constructor(public streetProvider: StreetProviderService,
+              private readonly heatSourcesService: NetworkHeatSourcesAvailabilityService) { }
 
   public streets?: Observable<string[]>;
   public isGasAvailable?: Observable<boolean>;

@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.coal-result {
+  display: flex;
+  padding: 40px 0;
+}
+
+.info-card {
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}

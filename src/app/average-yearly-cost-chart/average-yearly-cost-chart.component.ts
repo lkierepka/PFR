@@ -30,7 +30,7 @@ export class AverageYearlyCostChartComponent implements OnInit {
   gradient = false;
   showLegend = true;
   showXAxisLabel = true;
-  xAxisLabel = 'Metoda';
+  xAxisLabel = 'Źródła ogrzewania';
   showYAxisLabel = true;
   yAxisLabel = 'Koszt';
 

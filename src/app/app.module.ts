@@ -24,6 +24,7 @@ import { AverageYearlyCostChartComponent } from './average-yearly-cost-chart/ave
 import { CoalPriceChartComponent } from './coal-price-chart/coal-price-chart.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { ResultsComponent } from './results/results.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ResultsComponent } from './results/results.component';
     MatButtonToggleModule,
     MatButtonModule,
     MatIconModule,
+    MatCardModule,
     HttpClientModule,
     MatSelectModule,
     MatStepperModule,
