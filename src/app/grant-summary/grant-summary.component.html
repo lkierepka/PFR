@@ -1,30 +1,39 @@
-<ng-container *ngFor="let grant of grants">
-    <h2>{{grant.name}}</h2>
-    <div class="grant-info">
-        <div class="info-section">{{grant.description}}</div>
-        <div class="arrow-right">
-            <mat-icon>arrow_forward</mat-icon>
-        </div>
-        <div class="info-section">{{grant.grantAmount}}</div>
-        <div class="arrow-right">
-            <mat-icon>arrow_forward</mat-icon>
-        </div>
-        <div class="link-section">Brzmi ciekawie? Sięgnij po więcej informacji!
-            <p>
-                <a mat-mini-fab color="primary" [href]="grant.link">
-                    <mat-icon>link</mat-icon>
-                </a>
-                Strona urzędu
-            </p>
-            <p>
-                <a mat-mini-fab color="primary" [href]="grant.attachment">
-                    <mat-icon>download</mat-icon>
-                </a>
-                Wniosek o dotację
-            </p>
-        </div>
+<h2>STOP Smog</h2>
+<div class="grant-info">
+    <div class="info-section">
+        <h3>Kto może otrzymać dotację?</h3>
     </div>
-</ng-container>
+    <div class="arrow-right">
+        <mat-icon>arrow_forward</mat-icon>
+    </div>
+
+    <div class="info-section">
+        <h3>Ile można zyskać?</h3>
+
+    </div>
+    <div class="arrow-right">
+        <mat-icon>arrow_forward</mat-icon>
+    </div>
+
+    <div class="link-section">
+        <h3>Brzmi ciekawie? Sięgnij po więcej informacji!</h3>
+        <p>
+            <a mat-mini-fab color="primary"
+                [href]='"http://zdunskawola.pl/pl/aktualnosci/1494-stop-smog-mamy-nowy-regulamin-przyznawania-dotacji-na-wymiane-piecow-weglowych"'>
+                <mat-icon>link</mat-icon>
+            </a>
+            Strona urzędu
+        </p>
+        <p>
+            <a mat-mini-fab color="primary"
+                [href]='"http://zdunskawola.pl/images/luty_2020/Wniosek_z_zalacznikami.pdf"'>
+                <mat-icon>download</mat-icon>
+            </a>
+            Wniosek o dotację
+        </p>
+    </div>
+</div>
+
 
 <mat-card class="contact-us">
     <p>Potrzebujesz pomocy? Zadzwoń do nas i upewnij się, że dotacja Ci przysługuje!</p>

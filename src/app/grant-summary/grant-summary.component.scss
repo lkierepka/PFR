@@ -1,10 +1,16 @@
 .grant-info {
     display: flex;
+
+    
+    h3 {
+        font-weight: 700;
+    }
+
 }
 
 .info-section {
     display: flex;
-    text-align: center;
+    text-align: left;
     margin: 5px;
     width: 30%;
 }
@@ -18,7 +24,6 @@
 .link-section {
     width: 30%;
     display: flex;
-    text-align: justify;
     margin: 5px;
     flex-direction: column;
 }
