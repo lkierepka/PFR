@@ -35,12 +35,21 @@
 
 .contact-us {
     width: 40%;
-    align-items: flex-end;
-    right: 0;
-    bottom: 0;
     position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(168, 194, 71, 0.5);
 }
 
 .bold {
     font-weight: 700;
+}
+
+.flex-style {
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 8px;
+    }
 }
