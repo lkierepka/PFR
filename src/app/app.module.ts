@@ -27,6 +27,8 @@ import { GrantSummaryComponent } from './grant-summary/grant-summary.component';
 import { ResultsComponent } from './results/results.component';
 import { MatCardModule } from '@angular/material/card';
 import { CumulatedCostChartComponent } from './cumulated-cost-chart/cumulated-cost-chart.component';
+import { GrantInformationComponent } from './grant-summary/grant-information/grant-information.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { CumulatedCostChartComponent } from './cumulated-cost-chart/cumulated-co
     GrantSummaryComponent,
     ResultsComponent,
     CumulatedCostChartComponent,
+    GrantInformationComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,6 +59,7 @@ import { CumulatedCostChartComponent } from './cumulated-cost-chart/cumulated-co
     MatToolbarModule,
     MatIconModule,
     NgxChartsModule,
+    FormsModule,
   ],
   providers: [
     GasPipelineStreetProviderService,
@@ -66,4 +70,4 @@ import { CumulatedCostChartComponent } from './cumulated-cost-chart/cumulated-co
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

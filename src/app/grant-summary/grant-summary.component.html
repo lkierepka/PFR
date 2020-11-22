@@ -1,137 +1,19 @@
-<h2 class="grant-title">STOP Smog</h2>
-<div class="grant-info">
-    <mat-card class="info-section">
-        <h3>Kto może otrzymać dotację?</h3>
-        <p>Program adresowany jest do mieszkańców Zduńskiej Woli, właścicieli nieruchomości, w której zainstalowano
-            piec
-            węglowy.</p>
-        <p>Dotacja może pokryć <span class="bold">wymianę pieca opalanego węglem</span>, a także <span
-                class="bold">przyłączenie budynku do sieci ciepłowniczej lub
-                gazowej.</span></p>
-    </mat-card>
-    <div class="arrow-right">
-        <mat-icon>arrow_forward</mat-icon>
-    </div>
+<div class="cost-section-container">
+    <mat-button-toggle-group [(ngModel)]="selectedSource" name="heatingSourceCost" appearance="legacy">
+        <mat-button-toggle *ngFor="let heatingSource of heatingSourcesToApply" [value]="heatingSource.description">
+            {{heatingSource.description}}</mat-button-toggle>
+    </mat-button-toggle-group>
 
-    <mat-card class="info-section">
-        <div>
-            <h3>Ile można zyskać?</h3>
-            <p>Maksymalna możliwa dotacja - <span class="bold">5000 zł</span>.</p>
-            <p>Może pokryć tylko <span class="bold">50% kosztów inwestycji</span>.</p>
-        </div>
-    </mat-card>
-    <div class="arrow-right">
-        <mat-icon>arrow_forward</mat-icon>
-    </div>
-
-    <mat-card class="link-section">
-        <div>
-            <h3>Brzmi ciekawie? Sięgnij po więcej informacji!</h3>
-            <p>
-                <a mat-mini-fab color="primary" [href]='link'>
-                    <mat-icon>link</mat-icon>
-                </a>
-                <span class="desc">Strona urzędu</span>
-            </p>
-            <p>
-                <a mat-mini-fab color="primary"
-                    href='http://zdunskawola.pl/images/luty_2020/Wniosek_z_zalacznikami.pdf'>
-                    <mat-icon>download</mat-icon>
-                </a>
-                <span class="desc">Wniosek o dotację</span>
-            </p>
-        </div>
+    <mat-card *ngIf="selectedSource" class="cost-section">
+        <h4 class="bold">{{selectedSource}}</h4>
+        <p>Taka inwestycja kosztuje średnio 20 000 zł, w tym nowy kocioł kosztuje od 10 000 - 12 000 zł.</p>
+        <p><span class="bold">Mamy dla Ciebie dobrą wiadomość!</span> Możesz uzyskać zwrot do <span class="bold">10 000
+                zł</span> ubiegając się o
+            dotację!</p>
     </mat-card>
 </div>
 
-<h2 class="grant-title">Czyste Powietrze</h2>
-<div class="grant-info">
-    <mat-card class="info-section">
-        <h3>Kto może otrzymać dotację?</h3>
-        <p>Właściciele lub współwłaściciele jednorodzinnych budynków mieszkalnych, o dochodzie rocznym
-            nieprzekraczającym kwoty 100 000 zł.</p>
-        <p>Dotacja może pokryć <span class="bold">wymianę starych i nieefektywnych źródeł ciepła</span>, a także <span
-                class="bold">termomodernizację budynku.</span></p>
-    </mat-card>
-    <div class="arrow-right">
-        <mat-icon>arrow_forward</mat-icon>
-    </div>
-
-    <mat-card class="info-section">
-        <div>
-            <h3>Ile można zyskać?</h3>
-            <p>Maksymalna możliwa dotacja - <span class="bold">25 000 zł</span>.
-                Dla przedsięwzięcia z mikroinstalacją fotowoltaiczną - <span class="bold">30 000 zł</span>.</p>
-            <p>Dla podwyższonego poziomu dofinansowania (poziom zależy od wielkości przychodów gospodarstwa) maksymalna
-                dotacja to <span class="bold">37 000 zł</span></p>
-            <p>Może pokryć tylko <span class="bold">50% kosztów inwestycji</span>.</p>
-        </div>
-    </mat-card>
-    <div class="arrow-right">
-        <mat-icon>arrow_forward</mat-icon>
-    </div>
-
-    <mat-card class="link-section">
-        <div>
-            <h3>Brzmi ciekawie? Sięgnij po więcej informacji!</h3>
-            <p>
-                <a mat-mini-fab color="primary" href='https://czystepowietrze.gov.pl/wez-dofinansowanie/'>
-                    <mat-icon>link</mat-icon>
-                </a>
-                <span class="desc">Informacje o dotacji</span>
-            </p>
-            <p>
-                <a mat-mini-fab color="primary" href='https://czystepowietrze.gov.pl/kalkulator-dotacji/'>
-                    <mat-icon>link</mat-icon>
-                </a>
-                <span class="desc">Kalkulator dotacji</span>
-            </p>
-            <p>
-                <a mat-mini-fab color="primary"
-                    href='https://www.gov.pl/web/gov/skorzystaj-z-programu-czyste-powietrze'>
-                    <mat-icon>link</mat-icon>
-                </a>
-                <span class="desc">e-Wniosek</span>
-            </p>
-        </div>
-    </mat-card>
-</div>
-
-<h2 class="grant-title">Ulga Termomodernizacyjna</h2>
-<div class="grant-info">
-    <mat-card class="info-section">
-        <h3>Kto może skorzystać z ulgi?</h3>
-        <p>Właściciele lub współwłaściciele jednorodzinnych budynków mieszkalnych.</p>
-        <p>Ulga polega na odliczeniu od podstawy obliczenia podatku
-            wydatków poniesionych na termomodernizację budynku mieszkalnego
-            jednorodzinnego</p>
-    </mat-card>
-    <div class="arrow-right">
-        <mat-icon>arrow_forward</mat-icon>
-    </div>
-
-    <mat-card class="info-section">
-        <div>
-            <h3>Ile można zyskać?</h3>
-            <p>Łączna kwota, którą można odliczyć od podatku wynosi <span class="bold">53 000 zł</span>.
-        </div>
-    </mat-card>
-    <div class="arrow-right">
-        <mat-icon>arrow_forward</mat-icon>
-    </div>
-
-    <mat-card class="link-section">
-        <div>
-            <h3>Brzmi ciekawie? Sięgnij po więcej informacji!</h3>
-            <p>
-                <a mat-mini-fab color="primary" href='https://czystepowietrze.gov.pl/ulga-termomodernizacyjna/'>
-                    <mat-icon>link</mat-icon>
-                </a>
-                <span class="desc">Szczegóły projektu</span>
-            </p>
-        </div>
-    </mat-card>
-</div>
+<app-grant-information></app-grant-information>
 
 <div class="footer"></div>
 <mat-card class="contact-us">

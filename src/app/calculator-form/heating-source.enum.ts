@@ -1,7 +1,8 @@
 export enum HeatingSourceEnum {
-  convGasBoiler,
-  condensingGasBoiler,
-  coalFiredBoiler,
-  electricHeater,
-  biomassBoiler,
+    convGasBoiler,
+    condensingGasBoiler,
+    coalFiredBoiler,
+    electricHeater,
+    biomassBoiler,
+    districtHeating
 }
