@@ -28,6 +28,8 @@ export class CalculatorFormComponent implements OnInit {
     currentHeatSource: new FormControl(),
     houseSize: new FormControl(),
     occupants: new FormControl(),
+    houseType: new FormControl(),
+    thermalInsulation: new FormControl(),
   });
   get streetInput() {
     return this.calculatorForm.controls['street'];
@@ -35,7 +37,7 @@ export class CalculatorFormComponent implements OnInit {
   constructor(
     public streetProvider: StreetProviderService,
     private readonly heatSourcesService: NetworkHeatSourcesAvailabilityService
-  ) { }
+  ) {}
 
   public streets?: Observable<string[]>;
   public isGasAvailable?: Observable<boolean>;
