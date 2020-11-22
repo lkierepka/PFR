@@ -2,3 +2,15 @@ g.line-chart > g:last-of-type > g:nth-child(n) g.line-series > path {
   stroke-width: 10;
   stroke-linecap: round;
 }
+
+.coal-price-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coal-price-chart-title {
+  font-size: large;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
