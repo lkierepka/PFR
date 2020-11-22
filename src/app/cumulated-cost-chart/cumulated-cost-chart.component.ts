@@ -27,7 +27,7 @@ export class CumulatedCostChartComponent {
   animations: boolean = true;
   xAxis: boolean = true;
   yAxis: boolean = true;
-  xAxisLabel: string = 'Rok';
+  xAxisLabel: string = 'Lata od inwestycji w nowe źródła ogrzewania';
   yAxisLabel: string = 'Koszt w PLN';
   showXAxis = true;
   showYAxis = true;
@@ -35,6 +35,7 @@ export class CumulatedCostChartComponent {
   showLegend = true;
   showXAxisLabel = true;
   showYAxisLabel = true;
+  legendTitle = 'Legenda';
 
   colorScheme = {
     domain: ['#5AA454', '#7AA3E5', '#F2DFA7', '#A27EA8', '#A8385D'],

@@ -20,7 +20,7 @@ export class AverageYearlyCostChartComponent {
   costs$: Observable<ICost[]>;
   costsSeries$: Observable<{ name: string; value: number }[]>;
 
-  view: any[] = [500, 400];
+  view: any[] = [600, 400];
 
   // options
   showXAxis = true;
@@ -31,6 +31,8 @@ export class AverageYearlyCostChartComponent {
   showYAxisLabel = true;
   yAxisLabel = 'Koszt w PLN';
   barPadding = 10;
+  showLegend = true;
+  legendTitle = 'Legenda';
 
   colorScheme = {
     domain: ['#5AA454', '#7AA3E5', '#F2DFA7', '#A27EA8', '#A8385D'],
