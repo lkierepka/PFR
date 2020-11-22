@@ -1,0 +1,19 @@
+<div class="installation-cost-chart">
+  <span class="installation-cost-chart-title"> Koszty instalacji </span>
+  <ngx-charts-bar-vertical
+    [view]="view"
+    [scheme]="colorScheme"
+    [results]="costsSeries$ | async"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [barPadding]="barPadding"
+    [legend]="showLegend"
+    [legendTitle]="legendTitle"
+  >
+  </ngx-charts-bar-vertical>
+</div>

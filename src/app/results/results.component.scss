@@ -5,12 +5,13 @@
 
 .coal-result,
 .yearly-avg-cost-chart,
-.cumulated-cost-chart {
+.cumulated-cost-chart,
+.installation-cost-chart {
   display: flex;
   padding: 40px 0;
 }
 
-.coal-result { 
+.coal-result {
   justify-content: space-evenly;
 }
 

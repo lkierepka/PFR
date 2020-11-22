@@ -30,6 +30,7 @@ import { MatCardModule } from '@angular/material/card';
 import { CumulatedCostChartComponent } from './cumulated-cost-chart/cumulated-cost-chart.component';
 import { GrantInformationComponent } from './grant-summary/grant-information/grant-information.component';
 import { FormsModule } from '@angular/forms';
+import { InstallationCostChartComponent } from './installation-cost-chart/installation-cost-chart.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { FormsModule } from '@angular/forms';
     ResultsComponent,
     CumulatedCostChartComponent,
     GrantInformationComponent,
+    InstallationCostChartComponent,
   ],
   imports: [
     BrowserModule,

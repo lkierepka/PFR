@@ -71,14 +71,23 @@
       </p>
     </mat-card>
   </div>
+  <div class="installation-cost-chart">
+    <mat-card class="info-card">
+      Wykres pokazuje średnie koszty instalacji dla wybranych metod. Aby obniżyć
+      te koszty sprawdź zakładkę dotacje.
+    </mat-card>
+    <app-installation-cost-chart
+      [houseSize]="houseSize"
+    ></app-installation-cost-chart>
+  </div>
   <div class="cumulated-cost-chart">
+    <app-cumulated-cost-chart
+      [houseSize]="houseSize"
+    ></app-cumulated-cost-chart>
     <mat-card class="info-card">
       Wykres pokazuje koszty skumulowane w czasie. Są to koszty instalacyjne
       oraz roczne koszty eksploatacji.
     </mat-card>
-    <app-cumulated-cost-chart
-      [houseSize]="houseSize"
-    ></app-cumulated-cost-chart>
   </div>
   <div class="submit-button-container">
     <button mat-raised-button matStepperNext color="primary">
