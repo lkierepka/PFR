@@ -16,6 +16,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { GasPipelineStreetProviderService } from './services/gas-pipeline-availability-provider.service';
 import { HeatingPlantStreetProviderService } from './services/heating-plant-availability-provider.service';
 import { StreetProviderService } from './street-provider.service';
@@ -60,6 +61,7 @@ import { FormsModule } from '@angular/forms';
     MatIconModule,
     NgxChartsModule,
     FormsModule,
+    MatTooltipModule,
   ],
   providers: [
     GasPipelineStreetProviderService,
@@ -70,4 +72,4 @@ import { FormsModule } from '@angular/forms';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,12 +1,12 @@
 .calculator-form {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
 }
 
 .mat-button-toggle-checked {
-  background-color: rgba(129,167,54);
+  background-color: rgba(129, 167, 54);
   color: white;
 }
 
@@ -23,37 +23,39 @@ mat-form-field {
   margin-top: 20px;
 }
 
-::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
-  color: rgba(129,167,54);
+::ng-deep
+  .mat-form-field-appearance-outline.mat-focused
+  .mat-form-field-outline-thick {
+  color: rgba(129, 167, 54);
 }
 
 ::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
-  color: rgba(129,167,54);
- }
+  color: rgba(129, 167, 54);
+}
 
- ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
-  color: rgba(129,167,54);
- }
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: rgba(129, 167, 54);
+}
 
- ::ng-deep .mat-form-field-should-float .mat-focused {
-  color: rgba(129,167,54);
- }
+::ng-deep .mat-form-field-should-float .mat-focused {
+  color: rgba(129, 167, 54);
+}
 
 mat-button-toggle-group {
-    width: min-content;
-    margin-bottom: 20px;
+  width: min-content;
+  margin-bottom: 20px;
 }
 
 .bottom-margin-5 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .submit-button-container {
-    margin: 1.34375em 0;
-    width: 100px;
-    align-self: flex-end;
-    button {
-      width: 100%;
+  margin: 1.34375em 0;
+  width: 100px;
+  align-self: flex-end;
+  button {
+    width: 100%;
   }
 }
 
@@ -78,14 +80,24 @@ mat-button-toggle-group {
 }
 
 /* Extra small devices (phones, less than 768px) */
-@media (max-width:767px) {
-    .calculator-form {
-        padding: 0;
-    }
+@media (max-width: 767px) {
+  .calculator-form {
+    padding: 0;
+  }
 
-    .submit-button-container {
-        width: 100%;
-        margin: 1.34375em 0;
-        align-items: center;
-    }
+  .submit-button-container {
+    width: 100%;
+    margin: 1.34375em 0;
+    align-items: center;
+  }
+}
+
+.input-with-help {
+  display: flex;
+  align-items: center;
+}
+
+.input-tooltip {
+  margin-bottom: 1em;
+  margin-left: 0.5em;
 }
