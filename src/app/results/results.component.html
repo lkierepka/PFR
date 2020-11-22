@@ -1,20 +1,38 @@
 <div class="container">
   <div class="termo-info">
-    <h1 class="bold">Co powiesz na termomodernizację?</h1>
-    <span> Odpowiednie ocieplenie budynku oraz właściwie dobrane i zamontowane okna
-      (z użyciem tzw. ciepłego montażu) to <span class="bold">zysk</span> nie tylko dla domowego budżetu, ale i dla
-      środowiska – mniejsze zapotrzebowanie
-      na energię cieplną przekłada się na mniejsze zużycie węgla i spadek emisji szkodliwych substancji do atmosfery.
-      Przy braku właściwej izolacji termicznej, podczas podgrzewania wody i ogrzewania domu jednorodzinnego może
-      powstawać
-      w ciągu roku tyle dwutlenku węgla, że potrzeba nawet 3 tysięcy drzew na jego pochłonięcie.</span><br />
+    <h1
+      class="bold"
+      *ngIf="showThermalInsulationNotice; else goodThermalInsulation"
+    >
+      Co powiesz na termomodernizację?
+    </h1>
+    <ng-template #goodThermalInsulation
+      ><h1 class="bold">
+        Super, Twój dom nie wymaga termomodernizacji!
+      </h1></ng-template
+    >
+    <span>
+      Odpowiednie ocieplenie budynku oraz właściwie dobrane i zamontowane okna
+      (z użyciem tzw. ciepłego montażu) to <span class="bold">zysk</span> nie
+      tylko dla domowego budżetu, ale i dla środowiska – mniejsze
+      zapotrzebowanie na energię cieplną przekłada się na mniejsze zużycie węgla
+      i spadek emisji szkodliwych substancji do atmosfery. Przy braku właściwej
+      izolacji termicznej, podczas podgrzewania wody i ogrzewania domu
+      jednorodzinnego może powstawać w ciągu roku tyle dwutlenku węgla, że
+      potrzeba nawet 3 tysięcy drzew na jego pochłonięcie.</span
+    ><br />
     <h2 class="secondary termo-text-secondary">Przykładowo:</h2>
-    <span>Ocieplanie ścian budynku warstwą styropianu o grubości 9 cm pozwoli zredukować koszty strat
-      ciepła do kwoty około <b>950 zł</b>.</span> Natomiast powiększając grubość warstwy styropianu do 15 cm
-    zapotrzebowanie
-    budynku na ciepło utracone w wyniku przenikania przez ściany zmniejszy się do około 3100 kWh rocznie, a koszty
-    ogrzewania wyrównujacego tę stratę wyniosą <b>620zł</b>. Koszt pogrubienia warstwy ocieplenia o 6 cm wyniesie około 1500 złotych,
-    zatem inwestycja w grubszą o 6 cm warstwę termoizolacji <span class="bold">zwróci się w ciągu niespełna dwóch i pół roku</span> eksploatacji domu.
+    <span
+      >Ocieplanie ścian budynku warstwą styropianu o grubości 9 cm pozwoli
+      zredukować koszty strat ciepła do kwoty około <b>950 zł</b>.</span
+    >
+    Natomiast powiększając grubość warstwy styropianu do 15 cm zapotrzebowanie
+    budynku na ciepło utracone w wyniku przenikania przez ściany zmniejszy się
+    do około 3100 kWh rocznie, a koszty ogrzewania wyrównujacego tę stratę
+    wyniosą <b>620zł</b>. Koszt pogrubienia warstwy ocieplenia o 6 cm wyniesie
+    około 1500 złotych, zatem inwestycja w grubszą o 6 cm warstwę termoizolacji
+    <span class="bold">zwróci się w ciągu niespełna dwóch i pół roku</span>
+    eksploatacji domu.
   </div>
   <div class="coal-result">
     <mat-card class="info-section">
@@ -34,13 +52,17 @@
       </p>
       <h3>Czy wiesz że?</h3>
       <p>
-        <span class="bold">Na wymianę pieca węglowego przysługują Ci dotacje!</span>
+        <span class="bold"
+          >Na wymianę pieca węglowego przysługują Ci dotacje!</span
+        >
       </p>
     </mat-card>
     <app-coal-price-chart></app-coal-price-chart>
   </div>
   <div class="yearly-avg-cost-chart">
-    <app-average-yearly-cost-chart [houseSize]="houseSize"></app-average-yearly-cost-chart>
+    <app-average-yearly-cost-chart
+      [houseSize]="houseSize"
+    ></app-average-yearly-cost-chart>
     <mat-card class="info-card">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -57,7 +79,9 @@
       amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua.
     </mat-card>
-    <app-cumulated-cost-chart [houseSize]="houseSize"></app-cumulated-cost-chart>
+    <app-cumulated-cost-chart
+      [houseSize]="houseSize"
+    ></app-cumulated-cost-chart>
   </div>
   <div class="submit-button-container">
     <button mat-raised-button matStepperNext color="primary">Sprawdź jak obniżyć koszty</button>

@@ -6,12 +6,15 @@ import { StreetProviderService } from '../street-provider.service';
 import { HeatingSourceEnum } from './heating-source.enum';
 import { NetworkHeatSourcesAvailabilityService } from '../services/heat-sources-availability.service';
 import { HeatingSource } from './i-heating-source';
+import { ThermalInsulationEnum } from '../models/thermal-insulation.enum';
 
 export interface CalculatorFormValue {
   street: string;
   currentHeatSource: HeatingSourceEnum;
   houseSize: number;
   occupants: number;
+  thermalInsulation: ThermalInsulationEnum;
+  houseType: string;
 }
 
 @Component({
@@ -22,6 +25,10 @@ export interface CalculatorFormValue {
 export class CalculatorFormComponent implements OnInit {
   @Output()
   formSubmitted = new EventEmitter<CalculatorFormValue>();
+
+  goodThermalInsulation = ThermalInsulationEnum.good;
+  averageThermalInsulation = ThermalInsulationEnum.average;
+  badThermalInsulation = ThermalInsulationEnum.bad;
 
   calculatorForm = new FormGroup({
     street: new FormControl(),

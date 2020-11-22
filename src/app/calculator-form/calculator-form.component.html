@@ -75,17 +75,17 @@
       >
         <mat-button-toggle
           matTooltip="Brak ocieplenia lub ocieplenie na poziomie niższym niż 10cm styropianu"
-          value="bad"
+          [value]="badThermalInsulation"
           >Słabo ocieplony</mat-button-toggle
         >
         <mat-button-toggle
           matTooltip="Ocieplenie na poziomie 10-15cm styropianu"
-          value="average"
+          [value]="averageThermalInsulation"
           >Dobrze ocieplony</mat-button-toggle
         >
         <mat-button-toggle
           matTooltip="Ocieplenie na poziomie wyższym niż 15cm styropianu i wymieniona stolarka okienna"
-          value="good"
+          [value]="goodThermalInsulation"
           >Bardzo dobrze ocieplony</mat-button-toggle
         >
       </mat-button-toggle-group>

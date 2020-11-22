@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CalculatorFormValue } from '../calculator-form/calculator-form.component';
 import { HouseSizeEnum } from '../models/house-size.enum';
+import { ThermalInsulationEnum } from '../models/thermal-insulation.enum';
+const defaultThermalInsulation = ThermalInsulationEnum.average;
 
 @Component({
   selector: 'app-results',
@@ -16,6 +18,8 @@ export class ResultsComponent implements OnInit {
   set formValue(value: CalculatorFormValue | undefined) {
     this._formValue = value;
     this.houseSize = this.gethouseSize(value);
+    this.thermalInsulation =
+      value?.thermalInsulation ?? defaultThermalInsulation;
   }
 
   houseSize = HouseSizeEnum.medium;
@@ -24,6 +28,12 @@ export class ResultsComponent implements OnInit {
     if (size >= 200) return HouseSizeEnum.large;
     else if (size >= 100) return HouseSizeEnum.medium;
     else return HouseSizeEnum.small;
+  }
+
+  thermalInsulation = defaultThermalInsulation;
+
+  get showThermalInsulationNotice() {
+    return this.thermalInsulation !== ThermalInsulationEnum.good;
   }
 
   constructor() {}
