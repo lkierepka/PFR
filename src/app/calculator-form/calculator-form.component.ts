@@ -109,6 +109,6 @@ export class CalculatorFormComponent implements OnInit {
   }
 
   public thermalInsulationTooltip() {
-    return 'Słabo ocieplony - ocieplenie na poziomie niższym niż 10cm styropianu\nDobrze ocieplony - ocieplenie na poziomie 10-15cm styropianu\nBardzo dobrze ocieplony - ocieplenie na poziomie wyższym niż 15cm styropianu';
+    return 'Słabo ocieplony - brak ocieplenia, stara zabudowa lub ocieplenie na poziomie niższym niż 10cm styropianu.\n\nDobrze ocieplony - ocieplenie na poziomie 10-15cm styropianu i/lub wymieniona stolarka okienna.\n\nBardzo dobrze ocieplony - ocieplenie na poziomie wyższym niż 15cm styropianu i wymieniona stolarka okienna';
   }
 }
