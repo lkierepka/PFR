@@ -68,15 +68,31 @@
       />
     </mat-form-field>
     <mat-label>Stopień ocieplenia</mat-label>
-    <mat-button-toggle-group
-      appearance="legacy"
-      formControlName="thermalInsulation"
-    >
-      <mat-button-toggle value="bad">Nie ocieplony</mat-button-toggle>
-      <mat-button-toggle value="average">Słabo ocieplony</mat-button-toggle>
-      <mat-button-toggle value="good">Dobrze ocieplony</mat-button-toggle>
-    </mat-button-toggle-group>
-
+    <div class="input-with-help">
+      <mat-button-toggle-group
+        appearance="legacy"
+        formControlName="thermalInsulation"
+      >
+        <mat-button-toggle
+          matTooltip="Ocieplenie na poziomie niższym niż 10cm styropianu"
+          value="bad"
+          >Słabo ocieplony</mat-button-toggle
+        >
+        <mat-button-toggle
+          matTooltip="Ocieplenie na poziomie 10-15cm styropianu"
+          value="average"
+          >Dobrze ocieplony</mat-button-toggle
+        >
+        <mat-button-toggle
+          matTooltip="Ocieplenie na poziomie wyższym niż 15cm styropianu"
+          value="good"
+          >Bardzo dobrze ocieplony</mat-button-toggle
+        >
+      </mat-button-toggle-group>
+      <a matTooltip="{{ thermalInsulationTooltip() }}" class="input-tooltip">
+        <mat-icon>help</mat-icon>
+      </a>
+    </div>
     <mat-form-field appearance="outline">
       <mat-label>Liczba domowników</mat-label>
       <mat-select formControlName="occupants">

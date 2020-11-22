@@ -107,4 +107,8 @@ export class CalculatorFormComponent implements OnInit {
   public submitForm() {
     this.formSubmitted.next(this.calculatorForm.value);
   }
+
+  public thermalInsulationTooltip() {
+    return 'Słabo ocieplony - ocieplenie na poziomie niższym niż 10cm styropianu\nDobrze ocieplony - ocieplenie na poziomie 10-15cm styropianu\nBardzo dobrze ocieplony - ocieplenie na poziomie wyższym niż 15cm styropianu';
+  }
 }
