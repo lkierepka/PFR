@@ -4,12 +4,18 @@
             {{heatingSource.description}}</mat-button-toggle>
     </mat-button-toggle-group>
 
-    <mat-card *ngIf="selectedSource" class="cost-section">
+    <mat-card class="cost-section">
+        <div *ngIf="selectedSource; then costTemplate else emptyTemplate"></div>
+        <ng-template #costTemplate>
         <h4 class="bold">{{selectedSource}}</h4>
-        <p>Taka inwestycja kosztuje średnio 20 000 zł, w tym nowy kocioł kosztuje od 10 000 - 12 000 zł.</p>
-        <p><span class="bold">Mamy dla Ciebie dobrą wiadomość!</span> Możesz uzyskać zwrot do <span class="bold">10 000
-                zł</span> ubiegając się o
-            dotację!</p>
+            <p>Taka inwestycja kosztuje średnio 20 000 zł, w tym nowy kocioł kosztuje od 10 000 - 12 000 zł.</p>
+            <p><span class="bold">Mamy dla Ciebie dobrą wiadomość!</span> Możesz uzyskać zwrot do <span class="bold">10 000
+                    zł</span> ubiegając się o
+                dotację!</p>
+        </ng-template>
+        <ng-template #emptyTemplate>
+            <h4 class="bold">Wybierz inwestycję, którą chcesz sprawdzić!</h4>
+        </ng-template>
     </mat-card>
 </div>
 
