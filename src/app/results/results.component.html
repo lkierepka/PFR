@@ -1,12 +1,13 @@
 <div class="container">
   <div class="termo-info">
-    <h1 class="bold" *ngIf="showThermalInsulationNotice; else goodThermalInsulation">
+    <h1
+      class="bold"
+      *ngIf="showThermalInsulationNotice; else goodThermalInsulation"
+    >
       Co powiesz na termomodernizację?
     </h1>
     <ng-template #goodThermalInsulation>
-      <h1 class="bold">
-        Super, Twój dom nie wymaga termomodernizacji!
-      </h1>
+      <h1 class="bold">Super, Twój dom nie wymaga termomodernizacji!</h1>
     </ng-template>
     <span>
       Odpowiednie ocieplenie budynku oraz właściwie dobrane i zamontowane okna
@@ -16,10 +17,13 @@
       i spadek emisji szkodliwych substancji do atmosfery. Przy braku właściwej
       izolacji termicznej, podczas podgrzewania wody i ogrzewania domu
       jednorodzinnego może powstawać w ciągu roku tyle dwutlenku węgla, że
-      potrzeba nawet 3 tysięcy drzew na jego pochłonięcie.</span><br />
+      potrzeba nawet 3 tysięcy drzew na jego pochłonięcie.</span
+    ><br />
     <h2 class="secondary termo-text-secondary">Przykładowo:</h2>
-    <span>Ocieplanie ścian budynku warstwą styropianu o grubości 9 cm pozwoli
-      zredukować koszty strat ciepła do kwoty około <b>950 zł</b>.</span>
+    <span
+      >Ocieplanie ścian budynku warstwą styropianu o grubości 9 cm pozwoli
+      zredukować koszty strat ciepła do kwoty około <b>950 zł</b>.</span
+    >
     Natomiast powiększając grubość warstwy styropianu do 15 cm zapotrzebowanie
     budynku na ciepło utracone w wyniku przenikania przez ściany zmniejszy się
     do około 3100 kWh rocznie, a koszty ogrzewania wyrównujacego tę stratę
@@ -32,11 +36,13 @@
     <mat-card class="info-section">
       <h3>Zrezygnuj z węgla</h3>
       <p>
-        Wyobraź sobie, że nie musisz już corocznie gromadzić opału poświęcając na to czas i miejsce, a dom jest ciepły i przytulny 
-        bez dodatkowego dźwigania węgla łopatą i składowania popiołu...<br/>
-        Jest to możliwe z alternatywnymi źródłami energii. Co więcej, dzięki nim nie tylko <span class="bold">zaoszczędzisz</span>, ale
-        przyczynisz się również do
-        <span class="bold">poprawy jakości powietrza</span> którym oddychają Twoi bliscy.
+        Wyobraź sobie, że nie musisz już corocznie gromadzić opału poświęcając
+        na to czas i miejsce, a dom jest ciepły i przytulny bez dodatkowego
+        dźwigania węgla łopatą i składowania popiołu...<br />
+        Jest to możliwe z alternatywnymi źródłami energii. Co więcej, dzięki nim
+        nie tylko <span class="bold">zaoszczędzisz</span>, ale przyczynisz się
+        również do <span class="bold">poprawy jakości powietrza</span> którym
+        oddychają Twoi bliscy.
       </p>
       <p>
         Sieciowe źródła gwarantują niewielkie wahania w cenie ciepła, natomiast
@@ -53,12 +59,27 @@
     <app-coal-price-chart></app-coal-price-chart>
   </div>
   <div class="yearly-avg-cost-chart">
-    <app-average-yearly-cost-chart [houseSize]="houseSize"></app-average-yearly-cost-chart>
+    <app-average-yearly-cost-chart
+      [houseSize]="houseSize"
+    ></app-average-yearly-cost-chart>
     <mat-card class="info-card">
       <p>
-        Wykres pokazuje jakie są średnie roczne koszty eksploatacyjne dla
-        poszczególnych metod ogrzewania. Dane te nie zawierają kosztów
-        instalacji.
+        - <b>ogrzewanie gazowe</b> jest najbardziej ekologiczne pośród
+        tradycyjnych źródeł energii. Kotły zwykłe oraz kondensacyjne są bardzo
+        wygodne w obsłudze, zautomatyzowane, o wysokiej sprawności oraz
+        niewielkich stosunkowo rozmiarach. Wadą jest ograniczony dostęp do
+        zasilania, uwarunkowany słabo rozbudowaną siecią gazowniczą w kraju.
+        Kalkulacji kosztów ogrzewania gazowego też nie da się przeprowadzić na
+        długi okres, ponieważ ceny gazu nie należą do stabilnych i w przyszłości
+        raczej będą wzrastać, niż maleć. <br />
+        - <b>ogrzewanie energią elektryczną</b> w wykorzystaniem grzejników nie
+        jest dobrym pomysłem z uwagi na wysokie (i wciąż rosnące ceny prądu).
+        Poważne oszczędności może przynieść przejście na system rozliczeń
+        dwutaryfowy G12w. Prawdziwie korzystnym rozwiązaniem jest powiązanie
+        ogrzewania domu z instalacją fotowoltaiczną.<br />
+        - <b>ogrzewanie ciepłem sieciowym</b> jest o około 35% tańsze w
+        porównaniu z wykorzystaniem do tego celu gazu ziemnego. Jego zużycie
+        jest opomiarowane, dlatego płacimy tylko za to, co faktycznie zużyjemy.
       </p>
     </mat-card>
   </div>
