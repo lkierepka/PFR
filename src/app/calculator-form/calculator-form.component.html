@@ -48,7 +48,7 @@
     </mat-form-field>
 
     <mat-label>Miejsce zamieszkania</mat-label>
-    <mat-button-toggle-group name="thermalInsulation" appearance="legacy">
+    <mat-button-toggle-group appearance="legacy" formControlName="houseType">
       <mat-button-toggle value="singleFamily"
         >Dom jednorodzinny</mat-button-toggle
       >
@@ -67,6 +67,15 @@
         matInput
       />
     </mat-form-field>
+    <mat-label>Stopień ocieplenia</mat-label>
+    <mat-button-toggle-group
+      appearance="legacy"
+      formControlName="thermalInsulation"
+    >
+      <mat-button-toggle value="bad">Nie ocieplony</mat-button-toggle>
+      <mat-button-toggle value="average">Słabo ocieplony</mat-button-toggle>
+      <mat-button-toggle value="good">Dobrze ocieplony</mat-button-toggle>
+    </mat-button-toggle-group>
 
     <mat-form-field appearance="outline">
       <mat-label>Liczba mieszkańców</mat-label>
