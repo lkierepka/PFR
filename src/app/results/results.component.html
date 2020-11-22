@@ -1,16 +1,13 @@
 <div class="container">
   <div class="termo-info">
-    <h1
-      class="bold"
-      *ngIf="showThermalInsulationNotice; else goodThermalInsulation"
-    >
+    <h1 class="bold" *ngIf="showThermalInsulationNotice; else goodThermalInsulation">
       Co powiesz na termomodernizację?
     </h1>
-    <ng-template #goodThermalInsulation
-      ><h1 class="bold">
+    <ng-template #goodThermalInsulation>
+      <h1 class="bold">
         Super, Twój dom nie wymaga termomodernizacji!
-      </h1></ng-template
-    >
+      </h1>
+    </ng-template>
     <span>
       Odpowiednie ocieplenie budynku oraz właściwie dobrane i zamontowane okna
       (z użyciem tzw. ciepłego montażu) to <span class="bold">zysk</span> nie
@@ -19,13 +16,10 @@
       i spadek emisji szkodliwych substancji do atmosfery. Przy braku właściwej
       izolacji termicznej, podczas podgrzewania wody i ogrzewania domu
       jednorodzinnego może powstawać w ciągu roku tyle dwutlenku węgla, że
-      potrzeba nawet 3 tysięcy drzew na jego pochłonięcie.</span
-    ><br />
+      potrzeba nawet 3 tysięcy drzew na jego pochłonięcie.</span><br />
     <h2 class="secondary termo-text-secondary">Przykładowo:</h2>
-    <span
-      >Ocieplanie ścian budynku warstwą styropianu o grubości 9 cm pozwoli
-      zredukować koszty strat ciepła do kwoty około <b>950 zł</b>.</span
-    >
+    <span>Ocieplanie ścian budynku warstwą styropianu o grubości 9 cm pozwoli
+      zredukować koszty strat ciepła do kwoty około <b>950 zł</b>.</span>
     Natomiast powiększając grubość warstwy styropianu do 15 cm zapotrzebowanie
     budynku na ciepło utracone w wyniku przenikania przez ściany zmniejszy się
     do około 3100 kWh rocznie, a koszty ogrzewania wyrównujacego tę stratę
@@ -38,34 +32,31 @@
     <mat-card class="info-section">
       <h3>Zrezygnuj z węgla</h3>
       <p>
-        Dzięki temu nie tylko <span class="bold">zaoszczędzisz</span>, ale
+        Wyobraź sobie, że nie musisz już corocznie gromadzić opału poświęcając na to czas i miejsce, a dom jest ciepły i przytulny 
+        bez dodatkowego dźwigania węgla łopatą i składowania popiołu...<br/>
+        Jest to możliwe z alternatywnymi źródłami energii. Co więcej, dzięki nim nie tylko <span class="bold">zaoszczędzisz</span>, ale
         przyczynisz się również do
-        <span class="bold">poprawy jakości powietrza</span> którym oddycha Twoja
-        rodzina.
+        <span class="bold">poprawy jakości powietrza</span> którym oddychają Twoi bliscy.
       </p>
       <p>
         Sieciowe źródła gwarantują niewielkie wahania w cenie ciepła, natomiast
         ceny węgla zmieniają się co roku.
       </p>
       <p>
-        <span class="bold">Zrezygnuj z niepewności, wybierz ekologię!</span>
+        <span>Zrezygnuj z niepewności, wybierz ekologię!</span>
       </p>
       <h3>Czy wiesz że?</h3>
       <p>
-        <span class="bold"
-          >Na wymianę pieca węglowego przysługują Ci dotacje!</span
-        >
+        <span>Na wymianę pieca węglowego przysługują Ci dotacje!</span>
       </p>
     </mat-card>
     <app-coal-price-chart></app-coal-price-chart>
   </div>
   <div class="yearly-avg-cost-chart">
-    <app-average-yearly-cost-chart
-      [houseSize]="houseSize"
-    ></app-average-yearly-cost-chart>
+    <app-average-yearly-cost-chart [houseSize]="houseSize"></app-average-yearly-cost-chart>
     <mat-card class="info-card">
       <p>
-        Wykres pokazuje jakie są średnie koszty eksploatacyjne dla
+        Wykres pokazuje jakie są średnie roczne koszty eksploatacyjne dla
         poszczególnych metod ogrzewania. Dane te nie zawierają kosztów
         instalacji.
       </p>
