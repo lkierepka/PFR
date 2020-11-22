@@ -58,7 +58,7 @@
     </mat-button-toggle-group>
 
     <mat-form-field appearance="outline">
-      <mat-label>Powierzchnia użytkowa w m2</mat-label>
+      <mat-label>Powierzchnia użytkowa domu w m2</mat-label>
       <input
         formControlName="houseSize"
         type="number"
@@ -69,7 +69,7 @@
     </mat-form-field>
 
     <mat-form-field appearance="outline">
-      <mat-label>Liczba mieszkańców</mat-label>
+      <mat-label>Liczba domowników</mat-label>
       <mat-select formControlName="occupants">
         <mat-option *ngFor="let number of familyMemberNumber" [value]="number">
           {{ number }}
