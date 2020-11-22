@@ -45,9 +45,7 @@ export class AverageYearlyCostChartComponent {
           map((houseSize) =>
             costs.map((c) => ({
               name: c.name,
-              value:
-                this.costProvider.getYearlyAverage(c, houseSize) +
-                this.costProvider.getInstalationCost(c, houseSize) / this.years,
+              value: this.costProvider.getYearlyAverage(c, houseSize),
             }))
           )
         )

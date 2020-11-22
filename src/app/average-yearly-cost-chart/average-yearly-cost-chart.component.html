@@ -1,16 +1,21 @@
-<ngx-charts-bar-vertical
-  [view]="view"
-  [scheme]="colorScheme"
-  [results]="costsSeries$ | async"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="yAxisLabel"
-  [barPadding]="barPadding"
-  [legend]="showLegend"
-  [legendTitle]="legendTitle"
->
-</ngx-charts-bar-vertical>
+<div class="yearly-cost-chart">
+  <span class="yearly-cost-chart-title">
+    Średnie roczne koszty eksploatacji
+  </span>
+  <ngx-charts-bar-vertical
+    [view]="view"
+    [scheme]="colorScheme"
+    [results]="costsSeries$ | async"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [barPadding]="barPadding"
+    [legend]="showLegend"
+    [legendTitle]="legendTitle"
+  >
+  </ngx-charts-bar-vertical>
+</div>
