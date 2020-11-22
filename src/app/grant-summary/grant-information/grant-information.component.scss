@@ -1,11 +1,15 @@
 .grant-info {
     display: flex;
-
+    margin-bottom: 40px;
     
     h3 {
         font-weight: 700;
     }
 
+}
+
+h3 {
+  color: rgba(129,167,54 );
 }
 
 .info-section {
@@ -37,8 +41,9 @@
 }
 
 .grant-title {
-    margin-top: 10px;
-    margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: rgb(89, 86, 71);
 }
 
 .bold {
